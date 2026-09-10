@@ -1,0 +1,66 @@
+{
+  "status": "success",
+  "generated_at": "2026-09-10 12:38:48",
+  "started_at": "2026-09-10 12:31:09",
+  "finished_at": "2026-09-10 12:38:48",
+  "duration_seconds": 459.0,
+  "duration_text": "7m 39s",
+  "total_tickers": 962,
+  "processed": 962,
+  "errors": 0,
+  "candidates": 4,
+  "data": [
+    {
+      "ticker": "BMAS.JK",
+      "ob_range": "510-500",
+      "sl": 499,
+      "sl_pct": 2.0,
+      "tp": 560.0,
+      "tp_pct": 9.8,
+      "rr": 4.9,
+      "distance": 3.92,
+      "bos_age": 2,
+      "ob_size": 1.89,
+      "score": 90.19
+    },
+    {
+      "ticker": "TRJA.JK",
+      "ob_range": "125-121",
+      "sl": 120,
+      "sl_pct": 3.3,
+      "tp": 146.0,
+      "tp_pct": 16.8,
+      "rr": 5.15,
+      "distance": 4.0,
+      "bos_age": 7,
+      "ob_size": 3.08,
+      "score": 82.66
+    },
+    {
+      "ticker": "SGRO.JK",
+      "ob_range": "4820-4750",
+      "sl": 4748,
+      "sl_pct": 1.5,
+      "tp": 5075.0,
+      "tp_pct": 5.3,
+      "rr": 3.57,
+      "distance": 2.28,
+      "bos_age": 6,
+      "ob_size": 1.42,
+      "score": 79.69
+    },
+    {
+      "ticker": "PNGO.JK",
+      "ob_range": "3470-3460",
+      "sl": 3459,
+      "sl_pct": 0.3,
+      "tp": 3560.0,
+      "tp_pct": 2.6,
+      "rr": 8.93,
+      "distance": 3.46,
+      "bos_age": 3,
+      "ob_size": 0.28,
+      "score": 75.74
+    }
+  ]
+}

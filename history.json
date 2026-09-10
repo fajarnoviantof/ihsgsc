@@ -1,0 +1,149 @@
+{
+  "updated_at": "2026-09-10 12:42:51",
+  "keep_days": 31,
+  "slots": [
+    "09:00",
+    "10:00",
+    "11:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00"
+  ],
+  "history": [
+    {
+      "scanner": "MACD",
+      "slot": "13.00",
+      "cron": "",
+      "generated_at": "2026-09-10 12:42:51",
+      "candidates": 5,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "4m 2s",
+      "data": [
+        {
+          "ticker": "CMNT.JK",
+          "price": 760.0,
+          "spike_ratio": 0.53,
+          "hist_age": "+1",
+          "macd_hist": 0.7,
+          "value": "9.74B",
+          "ema20": 758.42,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "GSMF.JK",
+          "price": 120.0,
+          "spike_ratio": 13.07,
+          "hist_age": "+1",
+          "macd_hist": 1.04,
+          "value": "22.42B",
+          "ema20": 96.54,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "RAJA.JK",
+          "price": 830.0,
+          "spike_ratio": 0.28,
+          "hist_age": "+2",
+          "macd_hist": 1.74,
+          "value": "68.93B",
+          "ema20": 828.38,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "BMTR.JK",
+          "price": 119.0,
+          "spike_ratio": 3.37,
+          "hist_age": "+6",
+          "macd_hist": 0.32,
+          "value": "12.16B",
+          "ema20": 115.89,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "MNCN.JK",
+          "price": 210.0,
+          "spike_ratio": 3.82,
+          "hist_age": "+6",
+          "macd_hist": 0.82,
+          "value": "18.15B",
+          "ema20": 203.46,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "13.00",
+      "cron": "",
+      "generated_at": "2026-09-10 12:38:48",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "7m 39s",
+      "data": [
+        {
+          "ticker": "BMAS.JK",
+          "ob_range": "510-500",
+          "sl": 499,
+          "sl_pct": 2.0,
+          "tp": 560.0,
+          "tp_pct": 9.8,
+          "rr": 4.9,
+          "distance": 3.92,
+          "bos_age": 2,
+          "ob_size": 1.89,
+          "score": 90.19
+        },
+        {
+          "ticker": "TRJA.JK",
+          "ob_range": "125-121",
+          "sl": 120,
+          "sl_pct": 3.3,
+          "tp": 146.0,
+          "tp_pct": 16.8,
+          "rr": 5.15,
+          "distance": 4.0,
+          "bos_age": 7,
+          "ob_size": 3.08,
+          "score": 82.66
+        },
+        {
+          "ticker": "SGRO.JK",
+          "ob_range": "4820-4750",
+          "sl": 4748,
+          "sl_pct": 1.5,
+          "tp": 5075.0,
+          "tp_pct": 5.3,
+          "rr": 3.57,
+          "distance": 2.28,
+          "bos_age": 6,
+          "ob_size": 1.42,
+          "score": 79.69
+        },
+        {
+          "ticker": "PNGO.JK",
+          "ob_range": "3470-3460",
+          "sl": 3459,
+          "sl_pct": 0.3,
+          "tp": 3560.0,
+          "tp_pct": 2.6,
+          "rr": 8.93,
+          "distance": 3.46,
+          "bos_age": 3,
+          "ob_size": 0.28,
+          "score": 75.74
+        }
+      ]
+    }
+  ]
+}

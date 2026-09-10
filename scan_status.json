@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "trigger": "workflow_dispatch",
+  "expected_slot": "13.00",
+  "started_at": "2026-09-10 12:31:09",
+  "finished_at": "2026-09-10 12:42:51",
+  "ob": {
+    "status": "success",
+    "processed": 962,
+    "total_tickers": 962,
+    "candidates": 4,
+    "errors": 0,
+    "duration_text": "7m 39s"
+  },
+  "macd": {
+    "status": "success",
+    "processed": 962,
+    "total_tickers": 962,
+    "candidates": 5,
+    "errors": 0,
+    "duration_text": "4m 2s"
+  }
+}
