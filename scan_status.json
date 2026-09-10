@@ -1,23 +1,23 @@
 {
   "status": "success",
-  "trigger": "workflow_dispatch",
-  "expected_slot": "13.00",
-  "started_at": "2026-09-10 12:31:09",
-  "finished_at": "2026-09-10 12:42:51",
+  "trigger": "schedule",
+  "expected_slot": "13:00",
+  "started_at": "2026-09-10 18:09:54",
+  "finished_at": "2026-09-10 18:19:06",
   "ob": {
     "status": "success",
     "processed": 962,
     "total_tickers": 962,
-    "candidates": 4,
+    "candidates": 2,
     "errors": 0,
-    "duration_text": "7m 39s"
+    "duration_text": "5m 25s"
   },
   "macd": {
     "status": "success",
     "processed": 962,
     "total_tickers": 962,
-    "candidates": 5,
+    "candidates": 3,
     "errors": 0,
-    "duration_text": "4m 2s"
+    "duration_text": "3m 46s"
   }
 }
