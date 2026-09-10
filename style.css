@@ -68,6 +68,8 @@ button:focus-visible,
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
     padding: 4px 2px 20px;
     margin-bottom: 4px;
     border-bottom: 1px solid var(--border);
@@ -126,12 +128,13 @@ button:focus-visible,
     flex: 1;
     border: 0;
     background: transparent;
-    padding: 10px 6px;
+    padding: 10px 4px;
     border-radius: var(--radius-sm);
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12.5px;
     color: var(--text-dim);
     transition: background .15s ease, color .15s ease;
+    white-space: nowrap;
 }
 
 .nav button:hover {
@@ -142,10 +145,6 @@ button:focus-visible,
     background: var(--panel-2);
     color: var(--text);
     box-shadow: inset 0 0 0 1px var(--border);
-}
-
-.nav button span {
-    margin-left: 4px;
 }
 
 /* =========================================================
@@ -611,8 +610,14 @@ td strong {
         grid-template-columns: 1fr 1fr;
     }
 
-    .nav button span {
-        display: none;
+    .nav {
+        gap: 3px;
+        padding: 4px;
+    }
+
+    .nav button {
+        font-size: 11px;
+        padding: 10px 2px;
     }
 
     .section {
