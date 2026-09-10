@@ -1,16 +1,16 @@
 {
   "status": "success",
   "trigger": "schedule",
-  "expected_slot": "14:00",
-  "started_at": "2026-09-10 19:11:27",
-  "finished_at": "2026-09-10 19:23:43",
+  "expected_slot": "15:00",
+  "started_at": "2026-09-10 19:45:22",
+  "finished_at": "2026-09-10 19:53:57",
   "ob": {
     "status": "success",
     "processed": 962,
     "total_tickers": 962,
     "candidates": 2,
     "errors": 0,
-    "duration_text": "7m 44s"
+    "duration_text": "5m 1s"
   },
   "macd": {
     "status": "success",
@@ -18,6 +18,6 @@
     "total_tickers": 962,
     "candidates": 3,
     "errors": 0,
-    "duration_text": "4m 30s"
+    "duration_text": "3m 33s"
   }
 }
