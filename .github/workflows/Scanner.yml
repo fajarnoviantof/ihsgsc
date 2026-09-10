@@ -1,0 +1,266 @@
+name: SMC OB + MACD Scanner
+
+on:
+
+  workflow_dispatch:
+    inputs:
+
+      slot:
+        description: "Slot manual, contoh 09:00"
+        required: false
+        type: string
+
+  schedule:
+
+    # 09:05 WIB
+    - cron: "5 2 * * 1-5"
+
+    # 10:05 WIB
+    - cron: "5 3 * * 1-5"
+
+    # 11:05 WIB
+    - cron: "5 4 * * 1-5"
+
+    # 13:05 WIB
+    - cron: "5 6 * * 1-5"
+
+    # 14:05 WIB
+    - cron: "5 7 * * 1-5"
+
+    # 15:05 WIB
+    - cron: "5 8 * * 1-5"
+
+    # 16:05 WIB
+    - cron: "5 9 * * 1-5"
+
+    # 17:05 WIB
+    - cron: "5 10 * * 1-5"
+
+
+permissions:
+  contents: write
+
+# Mencegah dua run tabrakan (mis. manual + terjadwal jalan bersamaan)
+concurrency:
+  group: scanner-run
+  cancel-in-progress: false
+
+jobs:
+
+  scan:
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt numpy tqdm
+
+
+      # =====================================================
+      # TENTUKAN SLOT
+      # =====================================================
+
+      - name: Determine slot
+        id: slot
+        shell: bash
+        run: |
+
+          # MANUAL RUN
+          if [ -n "${{ inputs.slot }}" ]; then
+
+            echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT"
+
+            exit 0
+
+          fi
+
+
+          # AUTOMATIC RUN
+          case "${{ github.event.schedule }}" in
+
+            "5 2 * * 1-5")
+              echo "slot=09:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 3 * * 1-5")
+              echo "slot=10:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 4 * * 1-5")
+              echo "slot=11:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 6 * * 1-5")
+              echo "slot=13:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 7 * * 1-5")
+              echo "slot=14:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 8 * * 1-5")
+              echo "slot=15:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 9 * * 1-5")
+              echo "slot=16:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            "5 10 * * 1-5")
+              echo "slot=17:00" >> "$GITHUB_OUTPUT"
+              ;;
+
+            *)
+              echo "slot=" >> "$GITHUB_OUTPUT"
+              ;;
+
+          esac
+
+
+      # =====================================================
+      # SMC OB
+      # =====================================================
+
+      - name: Run SMC OB
+        id: ob
+        continue-on-error: true
+        run: |
+
+          python scanner.py
+
+
+      # =====================================================
+      # MACD
+      # =====================================================
+
+      - name: Run MACD
+        id: macd
+        continue-on-error: true
+        run: |
+
+          python scanner_macd.py
+
+
+      # =====================================================
+      # ARCHIVE
+      # =====================================================
+
+      - name: Archive history
+        run: |
+
+          python archive_history.py \
+            --ob "${{ steps.ob.outcome }}" \
+            --macd "${{ steps.macd.outcome }}" \
+            --schedule "${{ github.event.schedule }}" \
+            --slot "${{ steps.slot.outputs.slot }}"
+
+
+      # =====================================================
+      # TULIS STATUS RUN (dibaca dashboard)
+      # =====================================================
+
+      - name: Write scan status
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          TZ = ZoneInfo("Asia/Jakarta")
+
+          def load(p):
+              try:
+                  return json.load(open(p, encoding="utf-8"))
+              except Exception:
+                  return {}
+
+          ob = load("results.json")
+          macd = load("macd_results.json")
+
+          status = {
+              "status": "success",
+              "trigger": "${{ github.event_name }}",
+              "expected_slot": "${{ steps.slot.outputs.slot }}" or None,
+              "started_at": ob.get("started_at") or macd.get("started_at"),
+              "finished_at": datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S"),
+              "ob": {
+                  "status": "${{ steps.ob.outcome }}",
+                  "processed": ob.get("processed", 0),
+                  "total_tickers": ob.get("total_tickers", 0),
+                  "candidates": ob.get("candidates", 0),
+                  "errors": ob.get("errors", 0),
+                  "duration_text": ob.get("duration_text"),
+              },
+              "macd": {
+                  "status": "${{ steps.macd.outcome }}",
+                  "processed": macd.get("processed", 0),
+                  "total_tickers": macd.get("total_tickers", 0),
+                  "candidates": macd.get("candidates", 0),
+                  "errors": macd.get("errors", 0),
+                  "duration_text": macd.get("duration_text"),
+              },
+          }
+
+          json.dump(status, open("scan_status.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          PY
+
+
+      # =====================================================
+      # COMMIT (dengan retry supaya tidak gagal karena race)
+      # =====================================================
+
+      - name: Commit scanner data
+        if: always()
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+
+          git add \
+            results.json \
+            macd_results.json \
+            history.json \
+            scan_status.json
+
+
+          if git diff --cached --quiet; then
+
+            echo "Tidak ada perubahan."
+            exit 0
+
+          fi
+
+          git commit -m "update scanner results [skip ci]"
+
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push berhasil."
+              exit 0
+            fi
+            echo "Push gagal, mencoba rebase & retry ($i)..."
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+
+          echo "Push tetap gagal setelah 3 percobaan."
+          exit 1
