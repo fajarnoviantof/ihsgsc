@@ -1,0 +1,246 @@
+name: SMC OB + MACD Scanner
+
+on:
+
+  workflow_dispatch: {}
+
+  # -----------------------------------------------------
+  # POLLING: trigger tiap 15 menit sepanjang jam bursa WIB
+  # (05:00-17:59 WIB, Senin-Jumat).
+  #
+  # Kenapa sering? GitHub Actions cron TIDAK dijamin tepat
+  # waktu -- kadang delay beberapa jam saat traffic tinggi.
+  # Dengan trigger sesering ini, begitu SATU saja dari
+  # percobaan ini benar-benar jalan mendekati waktu asli,
+  # scanner akan langsung dieksekusi. Percobaan lain di jam
+  # yang sama otomatis di-skip oleh guard di bawah (tidak
+  # boros, karena hanya cek file, bukan scan ulang).
+  #
+  # Catatan zona waktu: WIB = UTC+7, jadi jam 05:00-06:59 WIB
+  # jatuh di tanggal UTC SEBELUMNYA (hari kerja - 1).
+  # -----------------------------------------------------
+
+  schedule:
+
+    # 05:00-06:59 WIB (Senin-Jumat) = 22:00-23:59 UTC (Minggu-Kamis)
+    - cron: "*/15 22-23 * * 0-4"
+
+    # 07:00-17:59 WIB (Senin-Jumat) = 00:00-10:59 UTC (Senin-Jumat)
+    - cron: "*/15 0-10 * * 1-5"
+
+
+permissions:
+  contents: write
+
+# Serialisasi supaya commit tidak tabrakan. Karena sebagian besar
+# trigger akan di-skip cepat oleh guard, antrean ini jarang menumpuk.
+concurrency:
+  group: scanner-run
+  cancel-in-progress: false
+
+jobs:
+
+  scan:
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt numpy
+
+
+      # =====================================================
+      # GUARD: cek apakah slot jam saat ini sudah punya hasil,
+      # dan apakah kita sedang di dalam jam bursa yang dipantau.
+      # Slot ditentukan dari jam SEKARANG (bukan dari cron),
+      # dan pencocokan "sudah tercover" dilihat dari timestamp
+      # generated_at di results.json / macd_results.json yang
+      # sudah ter-commit sebelumnya.
+      # =====================================================
+
+      - name: Cek slot jam & apakah perlu scan
+        id: guard
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          TZ = ZoneInfo("Asia/Jakarta")
+          now = datetime.now(TZ)
+          today = now.strftime("%Y-%m-%d")
+          hour = now.strftime("%H")
+          hour_slot = f"{hour}:00"
+
+          VALID_SLOTS = {
+              "09:00", "10:00", "11:00",
+              "13:00", "14:00", "15:00", "16:00", "17:00"
+          }
+
+          in_window = hour_slot in VALID_SLOTS
+
+          def already_covered(path):
+              try:
+                  data = json.load(open(path, encoding="utf-8"))
+              except Exception:
+                  return False
+              ts = str(data.get("generated_at") or data.get("finished_at") or "")
+              return ts[:10] == today and ts[11:13] == hour
+
+          skip_ob = (not in_window) or already_covered("results.json")
+          skip_macd = (not in_window) or already_covered("macd_results.json")
+
+          print(f"in_window={'true' if in_window else 'false'}")
+          print(f"skip_ob={'true' if skip_ob else 'false'}")
+          print(f"skip_macd={'true' if skip_macd else 'false'}")
+          print(f"hour_slot={hour_slot if in_window else ''}")
+          PY
+
+
+      # =====================================================
+      # SMC OB (skip kalau slot jam ini sudah ada hasilnya,
+      # atau sedang di luar jam bursa)
+      # =====================================================
+
+      - name: Run SMC OB
+        id: ob
+        if: steps.guard.outputs.skip_ob != 'true'
+        continue-on-error: true
+        run: python scanner.py
+
+
+      # =====================================================
+      # MACD (skip kalau slot jam ini sudah ada hasilnya,
+      # atau sedang di luar jam bursa)
+      # =====================================================
+
+      - name: Run MACD
+        id: macd
+        if: steps.guard.outputs.skip_macd != 'true'
+        continue-on-error: true
+        run: python scanner_macd.py
+
+
+      # =====================================================
+      # ARCHIVE
+      # Slot diambil dari generated_at masing-masing hasil
+      # (waktu SELESAI run itu sendiri), bukan dari cron.
+      # Kalau step di atas di-skip, outcome-nya otomatis
+      # "skipped" sehingga archive_history.py tidak akan
+      # menulis ulang data yang sama.
+      # =====================================================
+
+      - name: Archive history
+        if: always()
+        run: |
+          python archive_history.py \
+            --ob "${{ steps.ob.outcome }}" \
+            --macd "${{ steps.macd.outcome }}"
+
+
+      # =====================================================
+      # TULIS STATUS RUN (dibaca dashboard)
+      # =====================================================
+
+      - name: Write scan status
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          TZ = ZoneInfo("Asia/Jakarta")
+
+          def load(p):
+              try:
+                  return json.load(open(p, encoding="utf-8"))
+              except Exception:
+                  return {}
+
+          ob = load("results.json")
+          macd = load("macd_results.json")
+
+          status = {
+              "status": "success",
+              "trigger": "${{ github.event_name }}",
+              "current_slot": "${{ steps.guard.outputs.hour_slot }}" or None,
+              "finished_at": datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S"),
+              "ob": {
+                  "status": "${{ steps.ob.outcome }}",
+                  "generated_at": ob.get("generated_at"),
+                  "processed": ob.get("processed", 0),
+                  "total_tickers": ob.get("total_tickers", 0),
+                  "candidates": ob.get("candidates", 0),
+                  "errors": ob.get("errors", 0),
+                  "duration_text": ob.get("duration_text"),
+              },
+              "macd": {
+                  "status": "${{ steps.macd.outcome }}",
+                  "generated_at": macd.get("generated_at"),
+                  "processed": macd.get("processed", 0),
+                  "total_tickers": macd.get("total_tickers", 0),
+                  "candidates": macd.get("candidates", 0),
+                  "errors": macd.get("errors", 0),
+                  "duration_text": macd.get("duration_text"),
+              },
+          }
+
+          json.dump(status, open("scan_status.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          PY
+
+
+      # =====================================================
+      # COMMIT (dengan retry supaya tidak gagal karena race)
+      # =====================================================
+
+      - name: Commit scanner data
+        if: always()
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            results.json \
+            macd_results.json \
+            history.json \
+            scan_status.json
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan."
+            exit 0
+          fi
+
+          git commit -m "update scanner results [skip ci]"
+
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push berhasil."
+              exit 0
+            fi
+            echo "Push gagal, mencoba rebase & retry ($i)..."
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+
+          echo "Push tetap gagal setelah 3 percobaan."
+          exit 1
