@@ -1,25 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-09-11 11:19:21",
-  "started_at": "2026-09-11 11:15:57",
-  "finished_at": "2026-09-11 11:19:21",
-  "duration_seconds": 203.8,
-  "duration_text": "3m 23s",
+  "generated_at": "2026-09-11 14:57:51",
+  "started_at": "2026-09-11 14:54:00",
+  "finished_at": "2026-09-11 14:57:51",
+  "duration_seconds": 231.1,
+  "duration_text": "3m 51s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
   "candidates": 1,
   "data": [
     {
-      "ticker": "ESIP.JK",
-      "price": 129.0,
-      "spike_ratio": 2.86,
-      "hist_age": "+4",
-      "macd_hist": 0.89,
-      "value": "14.15B",
-      "ema20": 124.5,
+      "ticker": "CTTH.JK",
+      "price": 137.0,
+      "spike_ratio": 5.64,
+      "hist_age": "+1",
+      "macd_hist": 0.25,
+      "value": "8.58B",
+      "ema20": 129.13,
       "ema20_break_age": "+1",
-      "quality": "HIGH"
+      "quality": "LOW"
     }
   ]
 }

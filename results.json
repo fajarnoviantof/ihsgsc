@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-09-11 11:15:57",
-  "started_at": "2026-09-11 11:10:59",
-  "finished_at": "2026-09-11 11:15:57",
-  "duration_seconds": 297.8,
-  "duration_text": "4m 57s",
+  "generated_at": "2026-09-11 14:53:59",
+  "started_at": "2026-09-11 14:48:36",
+  "finished_at": "2026-09-11 14:53:59",
+  "duration_seconds": 323.6,
+  "duration_text": "5m 23s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 7,
+  "candidates": 5,
   "data": [
     {
       "ticker": "DKFT.JK",
@@ -44,10 +44,10 @@
       "tp": 146.0,
       "tp_pct": 16.8,
       "rr": 5.15,
-      "distance": 1.6,
+      "distance": 2.4,
       "bos_age": 8,
-      "ob_size": 3.15,
-      "score": 83.99
+      "ob_size": 3.12,
+      "score": 83.22
     },
     {
       "ticker": "TPMA.JK",
@@ -63,19 +63,6 @@
       "score": 82.62
     },
     {
-      "ticker": "NOBU.JK",
-      "ob_range": "505-486",
-      "sl": 485,
-      "sl_pct": 3.8,
-      "tp": 565.0,
-      "tp_pct": 11.9,
-      "rr": 3.09,
-      "distance": 2.97,
-      "bos_age": 7,
-      "ob_size": 3.65,
-      "score": 82.54
-    },
-    {
       "ticker": "PNGO.JK",
       "ob_range": "3470-3460",
       "sl": 3459,
@@ -87,19 +74,6 @@
       "bos_age": 3,
       "ob_size": 0.29,
       "score": 78.33
-    },
-    {
-      "ticker": "ERAL.JK",
-      "ob_range": "302-286",
-      "sl": 285,
-      "sl_pct": 5.4,
-      "tp": 338.0,
-      "tp_pct": 11.9,
-      "rr": 2.21,
-      "distance": 4.64,
-      "bos_age": 7,
-      "ob_size": 5.06,
-      "score": 77.9
     }
   ]
 }
