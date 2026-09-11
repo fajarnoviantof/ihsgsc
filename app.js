@@ -577,17 +577,6 @@ function renderHeatmap(history) {
 
     if (!head || !body) return;
 
-    const slots = [
-        "09:00",
-        "10:00",
-        "11:00",
-        "13:00",
-        "14:00",
-        "15:00",
-        "16:00",
-        "17:00"
-    ];
-
     const sectors = [
         "BASIC MATERIALS",
         "ENERGY",
@@ -602,10 +591,14 @@ function renderHeatmap(history) {
         "TRANSPORTATION & LOGISTIC"
     ];
 
+    // Kolom = tanggal 1-31 (akumulasi kemunculan sektor pada tanggal itu,
+    // digabung dari semua slot jam di hari yang sama)
+    const days = Array.from({ length: 31 }, (_, i) => i + 1);
+
     head.innerHTML = `
         <tr>
             <th>Sektor</th>
-            ${slots.map(s => `<th>${s.replace(":00", "")}</th>`).join("")}
+            ${days.map(d => `<th>${d}</th>`).join("")}
         </tr>
     `;
 
@@ -613,16 +606,27 @@ function renderHeatmap(history) {
 
     sectors.forEach(sector => {
         grouped[sector] = {};
-        slots.forEach(slot => {
-            grouped[sector][slot] = new Set();
+        days.forEach(d => {
+            grouped[sector][d] = 0;
         });
     });
 
     history.forEach(snapshot => {
 
-        const slot = snapshot.slot;
+        const generated =
+            snapshot.generated_at ||
+            snapshot.date ||
+            "";
 
-        if (!slots.includes(slot)) return;
+        const date = extractDate(generated);
+
+        if (!date) return;
+
+        const day = parseInt(date.split("-")[2], 10);
+
+        if (!Number.isFinite(day) || day < 1 || day > 31) {
+            return;
+        }
 
         const data =
             Array.isArray(snapshot.data)
@@ -636,9 +640,7 @@ function renderHeatmap(history) {
 
             if (!grouped[sector]) return;
 
-            grouped[sector][slot].add(
-                snapshot.generated_at || snapshot.date || ""
-            );
+            grouped[sector][day] += 1;
         });
     });
 
@@ -647,17 +649,16 @@ function renderHeatmap(history) {
         return `
             <tr>
                 <td>${escapeHTML(sector)}</td>
-                ${slots.map(slot => {
+                ${days.map(d => {
 
-                    const active =
-                        grouped[sector][slot].size;
+                    const count = grouped[sector][d];
 
                     return `
                         <td
-                            class="heat-cell"
-                            title="${active} hari aktif"
+                            class="heat-cell${count ? " has-value" : ""}"
+                            title="${count} kemunculan pada tanggal ${d}"
                         >
-                            ${active || ""}
+                            ${count || ""}
                         </td>
                     `;
 

@@ -527,14 +527,16 @@ td strong {
 .heatmap th,
 .heatmap td {
     text-align: center;
+    min-width: 30px;
+    padding: 8px 6px;
 }
 
 .heatmap th:first-child,
 .heatmap td:first-child {
     text-align: left;
-    min-width: 210px;
+    min-width: 190px;
     font-family: var(--font-ui);
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 .heat-cell {
