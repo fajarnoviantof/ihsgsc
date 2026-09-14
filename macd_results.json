@@ -1,25 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-09-11 14:57:51",
-  "started_at": "2026-09-11 14:54:00",
-  "finished_at": "2026-09-11 14:57:51",
-  "duration_seconds": 231.1,
-  "duration_text": "3m 51s",
+  "generated_at": "2026-09-14 10:36:43",
+  "started_at": "2026-09-14 10:33:09",
+  "finished_at": "2026-09-14 10:36:43",
+  "duration_seconds": 213.7,
+  "duration_text": "3m 33s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
-      "ticker": "CTTH.JK",
-      "price": 137.0,
-      "spike_ratio": 5.64,
+      "ticker": "LAPD.JK",
+      "price": 90.0,
+      "spike_ratio": 16.99,
       "hist_age": "+1",
-      "macd_hist": 0.25,
-      "value": "8.58B",
-      "ema20": 129.13,
+      "macd_hist": 1.02,
+      "value": "59.80B",
+      "ema20": 71.24,
       "ema20_break_age": "+1",
-      "quality": "LOW"
+      "quality": "MED"
+    },
+    {
+      "ticker": "TLKM.JK",
+      "price": 2620.0,
+      "spike_ratio": 1.22,
+      "hist_age": "+5",
+      "macd_hist": 1.58,
+      "value": "45.04B",
+      "ema20": 2617.31,
+      "ema20_break_age": "+1",
+      "quality": "MED"
     }
   ]
 }

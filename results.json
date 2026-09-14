@@ -1,27 +1,40 @@
 {
   "status": "success",
-  "generated_at": "2026-09-11 14:53:59",
-  "started_at": "2026-09-11 14:48:36",
-  "finished_at": "2026-09-11 14:53:59",
-  "duration_seconds": 323.6,
-  "duration_text": "5m 23s",
+  "generated_at": "2026-09-14 10:33:08",
+  "started_at": "2026-09-14 10:27:56",
+  "finished_at": "2026-09-14 10:33:08",
+  "duration_seconds": 312.0,
+  "duration_text": "5m 12s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
   "candidates": 5,
   "data": [
     {
-      "ticker": "DKFT.JK",
-      "ob_range": "675-660",
-      "sl": 659,
-      "sl_pct": 2.3,
-      "tp": 730.0,
-      "tp_pct": 8.2,
-      "rr": 3.59,
-      "distance": 3.7,
-      "bos_age": 6,
-      "ob_size": 2.14,
-      "score": 85.34
+      "ticker": "ISAP.JK",
+      "ob_range": "24-23",
+      "sl": 22,
+      "sl_pct": 4.2,
+      "tp": 28.0,
+      "tp_pct": 16.7,
+      "rr": 3.92,
+      "distance": 4.17,
+      "bos_age": 2,
+      "ob_size": 4.0,
+      "score": 85.58
+    },
+    {
+      "ticker": "PZZA.JK",
+      "ob_range": "182-179",
+      "sl": 178,
+      "sl_pct": 1.7,
+      "tp": 226.0,
+      "tp_pct": 24.2,
+      "rr": 14.39,
+      "distance": 2.75,
+      "bos_age": 10,
+      "ob_size": 1.6,
+      "score": 83.97
     },
     {
       "ticker": "BBRI.JK",
@@ -32,22 +45,9 @@
       "tp_pct": 8.5,
       "rr": 4.41,
       "distance": 3.15,
-      "bos_age": 9,
+      "bos_age": 10,
       "ob_size": 1.83,
-      "score": 84.09
-    },
-    {
-      "ticker": "TRJA.JK",
-      "ob_range": "125-121",
-      "sl": 120,
-      "sl_pct": 3.3,
-      "tp": 146.0,
-      "tp_pct": 16.8,
-      "rr": 5.15,
-      "distance": 2.4,
-      "bos_age": 8,
-      "ob_size": 3.12,
-      "score": 83.22
+      "score": 83.09
     },
     {
       "ticker": "TPMA.JK",
@@ -58,9 +58,9 @@
       "tp_pct": 6.9,
       "rr": 7.81,
       "distance": 4.29,
-      "bos_age": 7,
+      "bos_age": 8,
       "ob_size": 0.82,
-      "score": 82.62
+      "score": 81.62
     },
     {
       "ticker": "PNGO.JK",
@@ -70,10 +70,10 @@
       "tp": 3560.0,
       "tp_pct": 2.6,
       "rr": 8.93,
-      "distance": 0.86,
-      "bos_age": 3,
-      "ob_size": 0.29,
-      "score": 78.33
+      "distance": 1.44,
+      "bos_age": 5,
+      "ob_size": 0.28,
+      "score": 75.76
     }
   ]
 }
