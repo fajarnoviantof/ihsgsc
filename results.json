@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-09-15 10:33:44",
-  "started_at": "2026-09-15 10:28:44",
-  "finished_at": "2026-09-15 10:33:44",
-  "duration_seconds": 300.8,
-  "duration_text": "5m 0s",
+  "generated_at": "2026-09-15 16:00:30",
+  "started_at": "2026-09-15 15:55:39",
+  "finished_at": "2026-09-15 16:00:30",
+  "duration_seconds": 291.1,
+  "duration_text": "4m 51s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 5,
+  "candidates": 6,
   "data": [
     {
       "ticker": "BTPS.JK",
@@ -24,6 +24,19 @@
       "score": 86.01
     },
     {
+      "ticker": "SMKL.JK",
+      "ob_range": "148-146",
+      "sl": 145,
+      "sl_pct": 1.4,
+      "tp": 172.0,
+      "tp_pct": 16.2,
+      "rr": 11.75,
+      "distance": 3.38,
+      "bos_age": 8,
+      "ob_size": 1.31,
+      "score": 85.93
+    },
+    {
       "ticker": "TPMA.JK",
       "ob_range": "466-462",
       "sl": 461,
@@ -31,10 +44,23 @@
       "tp": 498.0,
       "tp_pct": 6.9,
       "rr": 7.81,
-      "distance": 2.58,
+      "distance": 3.43,
       "bos_age": 9,
-      "ob_size": 0.84,
-      "score": 82.31
+      "ob_size": 0.83,
+      "score": 81.47
+    },
+    {
+      "ticker": "RONY.JK",
+      "ob_range": "1275-1225",
+      "sl": 1224,
+      "sl_pct": 4.0,
+      "tp": 1975.0,
+      "tp_pct": 54.9,
+      "rr": 13.72,
+      "distance": 4.31,
+      "bos_age": 7,
+      "ob_size": 3.76,
+      "score": 80.93
     },
     {
       "ticker": "AMOR.JK",
@@ -44,23 +70,10 @@
       "tp": 378.0,
       "tp_pct": 5.6,
       "rr": 4.9,
-      "distance": 2.23,
+      "distance": 3.35,
       "bos_age": 6,
-      "ob_size": 1.09,
-      "score": 81.31
-    },
-    {
-      "ticker": "PNGO.JK",
-      "ob_range": "3470-3460",
-      "sl": 3459,
-      "sl_pct": 0.3,
-      "tp": 3560.0,
-      "tp_pct": 2.6,
-      "rr": 8.93,
-      "distance": 3.46,
-      "bos_age": 5,
-      "ob_size": 0.28,
-      "score": 73.74
+      "ob_size": 1.08,
+      "score": 80.2
     },
     {
       "ticker": "SMGA.JK",
