@@ -1,58 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-09-15 16:04:00",
-  "started_at": "2026-09-15 16:00:31",
-  "finished_at": "2026-09-15 16:04:00",
-  "duration_seconds": 209.1,
-  "duration_text": "3m 29s",
+  "generated_at": "2026-09-16 10:39:34",
+  "started_at": "2026-09-16 10:34:14",
+  "finished_at": "2026-09-16 10:39:34",
+  "duration_seconds": 319.6,
+  "duration_text": "5m 19s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 4,
-  "data": [
-    {
-      "ticker": "YOII.JK",
-      "price": 85.0,
-      "spike_ratio": 5.07,
-      "hist_age": "+1",
-      "macd_hist": 0.26,
-      "value": "11.08B",
-      "ema20": 82.24,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "TRJA.JK",
-      "price": 143.0,
-      "spike_ratio": 14.35,
-      "hist_age": "+1",
-      "macd_hist": 0.26,
-      "value": "11.39B",
-      "ema20": 126.91,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
-    },
-    {
-      "ticker": "DEFI.JK",
-      "price": 139.0,
-      "spike_ratio": 24.49,
-      "hist_age": "+1",
-      "macd_hist": 2.05,
-      "value": "87.04B",
-      "ema20": 108.92,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "CMNT.JK",
-      "price": 770.0,
-      "spike_ratio": 2.61,
-      "hist_age": "+4",
-      "macd_hist": 3.06,
-      "value": "17.17B",
-      "ema20": 758.18,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }

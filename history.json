@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 06:46:52",
+  "updated_at": "2026-09-16 10:39:34",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,81 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-09-16 10:39:34",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 19s",
+      "data": []
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-09-16 10:34:14",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 30s",
+      "data": [
+        {
+          "ticker": "BTPS.JK",
+          "ob_range": "1000-990",
+          "sl": 989,
+          "sl_pct": 1.0,
+          "tp": 1080.0,
+          "tp_pct": 8.0,
+          "rr": 7.84,
+          "distance": 3.0,
+          "bos_age": 9,
+          "ob_size": 0.97,
+          "score": 85.01
+        },
+        {
+          "ticker": "SMKL.JK",
+          "ob_range": "148-146",
+          "sl": 145,
+          "sl_pct": 1.4,
+          "tp": 172.0,
+          "tp_pct": 16.2,
+          "rr": 11.75,
+          "distance": 4.73,
+          "bos_age": 9,
+          "ob_size": 1.29,
+          "score": 83.6
+        },
+        {
+          "ticker": "TPMA.JK",
+          "ob_range": "466-462",
+          "sl": 461,
+          "sl_pct": 0.9,
+          "tp": 498.0,
+          "tp_pct": 6.9,
+          "rr": 7.81,
+          "distance": 3.43,
+          "bos_age": 10,
+          "ob_size": 0.83,
+          "score": 80.47
+        },
+        {
+          "ticker": "AMOR.JK",
+          "ob_range": "358-354",
+          "sl": 353,
+          "sl_pct": 1.1,
+          "tp": 378.0,
+          "tp_pct": 5.6,
+          "rr": 4.9,
+          "distance": 2.79,
+          "bos_age": 7,
+          "ob_size": 1.09,
+          "score": 79.75
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "16:00",
