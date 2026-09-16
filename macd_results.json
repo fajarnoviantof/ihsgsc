@@ -1,13 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-09-16 10:39:34",
-  "started_at": "2026-09-16 10:34:14",
-  "finished_at": "2026-09-16 10:39:34",
-  "duration_seconds": 319.6,
-  "duration_text": "5m 19s",
+  "generated_at": "2026-09-16 16:01:48",
+  "started_at": "2026-09-16 15:56:05",
+  "finished_at": "2026-09-16 16:01:48",
+  "duration_seconds": 342.7,
+  "duration_text": "5m 42s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 1,
+  "data": [
+    {
+      "ticker": "VAST.JK",
+      "price": 128.0,
+      "spike_ratio": 13.94,
+      "hist_age": "+1",
+      "macd_hist": 0.91,
+      "value": "27.07B",
+      "ema20": 114.68,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    }
+  ]
 }
