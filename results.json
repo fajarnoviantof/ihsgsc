@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-09-17 10:41:08",
-  "started_at": "2026-09-17 10:30:17",
-  "finished_at": "2026-09-17 10:41:08",
-  "duration_seconds": 650.8,
-  "duration_text": "10m 50s",
+  "generated_at": "2026-09-17 16:05:06",
+  "started_at": "2026-09-17 15:55:00",
+  "finished_at": "2026-09-17 16:05:06",
+  "duration_seconds": 606.0,
+  "duration_text": "10m 6s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 6,
+  "candidates": 5,
   "data": [
     {
       "ticker": "BRNA.JK",
@@ -18,10 +18,10 @@
       "tp": 750.0,
       "tp_pct": 16.3,
       "rr": 5.15,
-      "distance": 3.1,
+      "distance": 3.88,
       "bos_age": 1,
-      "ob_size": 3.01,
-      "score": 89.73
+      "ob_size": 2.99,
+      "score": 88.97
     },
     {
       "ticker": "AKRA.JK",
@@ -31,10 +31,10 @@
       "tp": 1560.0,
       "tp_pct": 10.2,
       "rr": 4.75,
-      "distance": 3.53,
+      "distance": 3.89,
       "bos_age": 7,
-      "ob_size": 2.05,
-      "score": 85.26
+      "ob_size": 2.04,
+      "score": 84.91
     },
     {
       "ticker": "BTPS.JK",
@@ -50,19 +50,6 @@
       "score": 84.01
     },
     {
-      "ticker": "SMKL.JK",
-      "ob_range": "148-146",
-      "sl": 145,
-      "sl_pct": 1.4,
-      "tp": 172.0,
-      "tp_pct": 16.2,
-      "rr": 11.75,
-      "distance": 3.38,
-      "bos_age": 10,
-      "ob_size": 1.31,
-      "score": 83.93
-    },
-    {
       "ticker": "UNTR.JK",
       "ob_range": "25400-24950",
       "sl": 24941,
@@ -70,10 +57,10 @@
       "tp": 26975.0,
       "tp_pct": 6.2,
       "rr": 3.43,
-      "distance": 2.56,
+      "distance": 1.28,
       "bos_age": 6,
-      "ob_size": 1.73,
-      "score": 81.5
+      "ob_size": 1.75,
+      "score": 82.76
     },
     {
       "ticker": "AMOR.JK",
@@ -83,10 +70,10 @@
       "tp": 378.0,
       "tp_pct": 5.6,
       "rr": 4.9,
-      "distance": 2.79,
+      "distance": 3.35,
       "bos_age": 8,
-      "ob_size": 1.09,
-      "score": 78.75
+      "ob_size": 1.08,
+      "score": 78.2
     }
   ]
 }
