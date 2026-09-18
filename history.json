@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18 10:33:20",
+  "updated_at": "2026-09-18 15:40:00",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,104 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "15:00",
+      "generated_at": "2026-09-18 15:40:00",
+      "candidates": 2,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 31s",
+      "data": [
+        {
+          "ticker": "BAJA.JK",
+          "price": 340.0,
+          "spike_ratio": 4.14,
+          "hist_age": "+1",
+          "macd_hist": 0.67,
+          "value": "29.41B",
+          "ema20": 290.96,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "CAMP.JK",
+          "price": 202.0,
+          "spike_ratio": 39.21,
+          "hist_age": "+1",
+          "macd_hist": 1.87,
+          "value": "16.50B",
+          "ema20": 173.63,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "15:00",
+      "generated_at": "2026-09-18 15:34:28",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 14s",
+      "data": [
+        {
+          "ticker": "YULE.JK",
+          "ob_range": "3500-3470",
+          "sl": 3469,
+          "sl_pct": 0.9,
+          "tp": 3890.0,
+          "tp_pct": 11.1,
+          "rr": 12.8,
+          "distance": 2.86,
+          "bos_age": 2,
+          "ob_size": 0.83,
+          "score": 93.44
+        },
+        {
+          "ticker": "AKRA.JK",
+          "ob_range": "1415-1385",
+          "sl": 1384,
+          "sl_pct": 2.2,
+          "tp": 1560.0,
+          "tp_pct": 10.2,
+          "rr": 4.75,
+          "distance": 3.53,
+          "bos_age": 8,
+          "ob_size": 2.05,
+          "score": 84.26
+        },
+        {
+          "ticker": "ICON.JK",
+          "ob_range": "148-140",
+          "sl": 139,
+          "sl_pct": 5.5,
+          "tp": 177.0,
+          "tp_pct": 19.6,
+          "rr": 3.56,
+          "distance": 4.05,
+          "bos_age": 1,
+          "ob_size": 5.19,
+          "score": 84.25
+        },
+        {
+          "ticker": "AMOR.JK",
+          "ob_range": "358-354",
+          "sl": 353,
+          "sl_pct": 1.1,
+          "tp": 378.0,
+          "tp_pct": 5.6,
+          "rr": 4.9,
+          "distance": 2.79,
+          "bos_age": 9,
+          "ob_size": 1.09,
+          "score": 77.75
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",
