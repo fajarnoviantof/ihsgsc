@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-09-21 10:33:23",
-  "started_at": "2026-09-21 10:24:20",
-  "finished_at": "2026-09-21 10:33:23",
-  "duration_seconds": 543.1,
-  "duration_text": "9m 3s",
+  "generated_at": "2026-09-21 16:21:48",
+  "started_at": "2026-09-21 16:12:48",
+  "finished_at": "2026-09-21 16:21:48",
+  "duration_seconds": 540.3,
+  "duration_text": "9m 0s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
@@ -18,23 +18,23 @@
       "tp": 1560.0,
       "tp_pct": 10.2,
       "rr": 4.75,
-      "distance": 3.89,
+      "distance": 2.83,
       "bos_age": 9,
-      "ob_size": 2.04,
-      "score": 82.91
+      "ob_size": 2.06,
+      "score": 83.95
     },
     {
-      "ticker": "ICON.JK",
-      "ob_range": "148-140",
-      "sl": 139,
-      "sl_pct": 5.5,
-      "tp": 177.0,
-      "tp_pct": 19.6,
-      "rr": 3.56,
-      "distance": 4.73,
-      "bos_age": 2,
-      "ob_size": 5.16,
-      "score": 82.6
+      "ticker": "DEFI.JK",
+      "ob_range": "104-101",
+      "sl": 100,
+      "sl_pct": 2.9,
+      "tp": 112.0,
+      "tp_pct": 7.7,
+      "rr": 2.62,
+      "distance": 4.81,
+      "bos_age": 4,
+      "ob_size": 2.75,
+      "score": 83.57
     },
     {
       "ticker": "AMOR.JK",
@@ -44,10 +44,10 @@
       "tp": 378.0,
       "tp_pct": 5.6,
       "rr": 4.9,
-      "distance": 2.23,
+      "distance": 2.79,
       "bos_age": 10,
       "ob_size": 1.09,
-      "score": 77.31
+      "score": 76.75
     },
     {
       "ticker": "NIRO.JK",
@@ -57,10 +57,10 @@
       "tp": 236.0,
       "tp_pct": 38.8,
       "rr": 6.47,
-      "distance": 3.53,
+      "distance": 2.94,
       "bos_age": 10,
-      "ob_size": 5.68,
-      "score": 74.79
+      "ob_size": 5.71,
+      "score": 75.35
     }
   ]
 }

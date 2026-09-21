@@ -1,25 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-09-21 10:38:50",
-  "started_at": "2026-09-21 10:33:24",
-  "finished_at": "2026-09-21 10:38:50",
-  "duration_seconds": 325.8,
-  "duration_text": "5m 25s",
+  "generated_at": "2026-09-21 16:27:31",
+  "started_at": "2026-09-21 16:21:49",
+  "finished_at": "2026-09-21 16:27:31",
+  "duration_seconds": 342.8,
+  "duration_text": "5m 42s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
-      "ticker": "GPSO.JK",
-      "price": 292.0,
-      "spike_ratio": 1.65,
+      "ticker": "HOPE.JK",
+      "price": 282.0,
+      "spike_ratio": 4.53,
       "hist_age": "+1",
-      "macd_hist": 0.37,
-      "value": "9.36B",
-      "ema20": 289.98,
+      "macd_hist": 0.46,
+      "value": "47.97B",
+      "ema20": 231.84,
       "ema20_break_age": "+1",
-      "quality": "MED"
+      "quality": "LOW"
+    },
+    {
+      "ticker": "AGAR.JK",
+      "price": 2300.0,
+      "spike_ratio": 3.46,
+      "hist_age": "+6",
+      "macd_hist": 8.73,
+      "value": "9.04B",
+      "ema20": 1909.62,
+      "ema20_break_age": "+1",
+      "quality": "LOW"
     }
   ]
 }

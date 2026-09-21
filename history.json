@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 10:38:50",
+  "updated_at": "2026-09-21 16:27:31",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,104 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "16:00",
+      "generated_at": "2026-09-21 16:27:31",
+      "candidates": 2,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 42s",
+      "data": [
+        {
+          "ticker": "HOPE.JK",
+          "price": 282.0,
+          "spike_ratio": 4.53,
+          "hist_age": "+1",
+          "macd_hist": 0.46,
+          "value": "47.97B",
+          "ema20": 231.84,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "AGAR.JK",
+          "price": 2300.0,
+          "spike_ratio": 3.46,
+          "hist_age": "+6",
+          "macd_hist": 8.73,
+          "value": "9.04B",
+          "ema20": 1909.62,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "16:00",
+      "generated_at": "2026-09-21 16:21:48",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 0s",
+      "data": [
+        {
+          "ticker": "AKRA.JK",
+          "ob_range": "1415-1385",
+          "sl": 1384,
+          "sl_pct": 2.2,
+          "tp": 1560.0,
+          "tp_pct": 10.2,
+          "rr": 4.75,
+          "distance": 2.83,
+          "bos_age": 9,
+          "ob_size": 2.06,
+          "score": 83.95
+        },
+        {
+          "ticker": "DEFI.JK",
+          "ob_range": "104-101",
+          "sl": 100,
+          "sl_pct": 2.9,
+          "tp": 112.0,
+          "tp_pct": 7.7,
+          "rr": 2.62,
+          "distance": 4.81,
+          "bos_age": 4,
+          "ob_size": 2.75,
+          "score": 83.57
+        },
+        {
+          "ticker": "AMOR.JK",
+          "ob_range": "358-354",
+          "sl": 353,
+          "sl_pct": 1.1,
+          "tp": 378.0,
+          "tp_pct": 5.6,
+          "rr": 4.9,
+          "distance": 2.79,
+          "bos_age": 10,
+          "ob_size": 1.09,
+          "score": 76.75
+        },
+        {
+          "ticker": "NIRO.JK",
+          "ob_range": "170-160",
+          "sl": 159,
+          "sl_pct": 6.0,
+          "tp": 236.0,
+          "tp_pct": 38.8,
+          "rr": 6.47,
+          "distance": 2.94,
+          "bos_age": 10,
+          "ob_size": 5.71,
+          "score": 75.35
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",
