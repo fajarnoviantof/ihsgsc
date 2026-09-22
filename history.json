@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 07:19:25",
+  "updated_at": "2026-09-22 10:39:08",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,93 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-09-22 10:39:08",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 59s",
+      "data": [
+        {
+          "ticker": "DYAN.JK",
+          "price": 101.0,
+          "spike_ratio": 13.93,
+          "hist_age": "+1",
+          "macd_hist": 0.47,
+          "value": "26.81B",
+          "ema20": 88.08,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-09-22 10:33:07",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 35s",
+      "data": [
+        {
+          "ticker": "SCNP.JK",
+          "ob_range": "160-156",
+          "sl": 155,
+          "sl_pct": 2.5,
+          "tp": 175.0,
+          "tp_pct": 9.4,
+          "rr": 3.68,
+          "distance": 1.88,
+          "bos_age": 1,
+          "ob_size": 2.45,
+          "score": 92.12
+        },
+        {
+          "ticker": "AKRA.JK",
+          "ob_range": "1415-1385",
+          "sl": 1384,
+          "sl_pct": 2.2,
+          "tp": 1560.0,
+          "tp_pct": 10.2,
+          "rr": 4.75,
+          "distance": 2.83,
+          "bos_age": 10,
+          "ob_size": 2.06,
+          "score": 82.95
+        },
+        {
+          "ticker": "ICON.JK",
+          "ob_range": "148-140",
+          "sl": 139,
+          "sl_pct": 5.5,
+          "tp": 177.0,
+          "tp_pct": 19.6,
+          "rr": 3.56,
+          "distance": 3.38,
+          "bos_age": 3,
+          "ob_size": 5.23,
+          "score": 82.88
+        },
+        {
+          "ticker": "MAPB.JK",
+          "ob_range": "1115-1070",
+          "sl": 1069,
+          "sl_pct": 4.1,
+          "tp": 1225.0,
+          "tp_pct": 9.9,
+          "rr": 2.4,
+          "distance": 1.79,
+          "bos_age": 10,
+          "ob_size": 3.96,
+          "score": 80.13
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "16:00",
