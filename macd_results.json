@@ -1,25 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-09-22 10:39:08",
-  "started_at": "2026-09-22 10:33:08",
-  "finished_at": "2026-09-22 10:39:08",
-  "duration_seconds": 359.8,
-  "duration_text": "5m 59s",
+  "generated_at": "2026-09-22 15:59:46",
+  "started_at": "2026-09-22 15:53:56",
+  "finished_at": "2026-09-22 15:59:46",
+  "duration_seconds": 349.1,
+  "duration_text": "5m 49s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
       "ticker": "DYAN.JK",
-      "price": 101.0,
-      "spike_ratio": 13.93,
+      "price": 98.0,
+      "spike_ratio": 11.14,
       "hist_age": "+1",
-      "macd_hist": 0.47,
-      "value": "26.81B",
-      "ema20": 88.08,
+      "macd_hist": 0.28,
+      "value": "69.66B",
+      "ema20": 87.79,
       "ema20_break_age": "+1",
       "quality": "LOW"
+    },
+    {
+      "ticker": "BPTR.JK",
+      "price": 99.0,
+      "spike_ratio": 33.81,
+      "hist_age": "+1",
+      "macd_hist": 1.34,
+      "value": "23.20B",
+      "ema20": 77.19,
+      "ema20_break_age": "+1",
+      "quality": "MED"
     }
   ]
 }

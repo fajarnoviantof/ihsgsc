@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-09-22 10:33:07",
-  "started_at": "2026-09-22 10:23:32",
-  "finished_at": "2026-09-22 10:33:07",
-  "duration_seconds": 575.4,
-  "duration_text": "9m 35s",
+  "generated_at": "2026-09-22 15:53:56",
+  "started_at": "2026-09-22 15:44:28",
+  "finished_at": "2026-09-22 15:53:56",
+  "duration_seconds": 568.0,
+  "duration_text": "9m 28s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 4,
+  "candidates": 3,
   "data": [
     {
       "ticker": "SCNP.JK",
@@ -31,23 +31,10 @@
       "tp": 1560.0,
       "tp_pct": 10.2,
       "rr": 4.75,
-      "distance": 2.83,
+      "distance": 3.18,
       "bos_age": 10,
-      "ob_size": 2.06,
-      "score": 82.95
-    },
-    {
-      "ticker": "ICON.JK",
-      "ob_range": "148-140",
-      "sl": 139,
-      "sl_pct": 5.5,
-      "tp": 177.0,
-      "tp_pct": 19.6,
-      "rr": 3.56,
-      "distance": 3.38,
-      "bos_age": 3,
-      "ob_size": 5.23,
-      "score": 82.88
+      "ob_size": 2.05,
+      "score": 82.61
     },
     {
       "ticker": "MAPB.JK",
