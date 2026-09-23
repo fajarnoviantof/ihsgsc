@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-09-23 10:36:06",
-  "started_at": "2026-09-23 10:24:35",
-  "finished_at": "2026-09-23 10:36:06",
-  "duration_seconds": 690.7,
-  "duration_text": "11m 30s",
+  "generated_at": "2026-09-23 15:56:05",
+  "started_at": "2026-09-23 15:45:46",
+  "finished_at": "2026-09-23 15:56:05",
+  "duration_seconds": 619.2,
+  "duration_text": "10m 19s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 4,
+  "candidates": 5,
   "data": [
     {
       "ticker": "NOBU.JK",
@@ -18,10 +18,10 @@
       "tp": 565.0,
       "tp_pct": 7.6,
       "rr": 2.62,
-      "distance": 3.81,
+      "distance": 4.76,
       "bos_age": 1,
-      "ob_size": 2.75,
-      "score": 87.39
+      "ob_size": 2.73,
+      "score": 86.46
     },
     {
       "ticker": "SCCO.JK",
@@ -31,9 +31,22 @@
       "tp": 3290.0,
       "tp_pct": 28.5,
       "rr": 6.51,
-      "distance": 3.91,
+      "distance": 2.73,
       "bos_age": 6,
-      "ob_size": 4.14,
+      "ob_size": 4.18,
+      "score": 82.71
+    },
+    {
+      "ticker": "JAWA.JK",
+      "ob_range": "163-153",
+      "sl": 152,
+      "sl_pct": 6.3,
+      "tp": 186.0,
+      "tp_pct": 14.1,
+      "rr": 2.25,
+      "distance": 4.29,
+      "bos_age": 2,
+      "ob_size": 5.88,
       "score": 81.57
     },
     {
@@ -57,10 +70,10 @@
       "tp": 1200.0,
       "tp_pct": 2.6,
       "rr": 2.94,
-      "distance": 2.99,
+      "distance": 4.27,
       "bos_age": 1,
-      "ob_size": 0.83,
-      "score": 76.99
+      "ob_size": 0.82,
+      "score": 75.72
     }
   ]
 }

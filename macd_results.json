@@ -1,25 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-09-23 10:42:23",
-  "started_at": "2026-09-23 10:36:06",
-  "finished_at": "2026-09-23 10:42:23",
-  "duration_seconds": 377.1,
-  "duration_text": "6m 17s",
+  "generated_at": "2026-09-23 16:01:56",
+  "started_at": "2026-09-23 15:56:06",
+  "finished_at": "2026-09-23 16:01:56",
+  "duration_seconds": 350.0,
+  "duration_text": "5m 50s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
-      "ticker": "AMRT.JK",
-      "price": 1320.0,
-      "spike_ratio": 0.9,
-      "hist_age": "+4",
-      "macd_hist": 3.14,
-      "value": "6.87B",
-      "ema20": 1318.48,
+      "ticker": "ANTM.JK",
+      "price": 3300.0,
+      "spike_ratio": 2.41,
+      "hist_age": "+1",
+      "macd_hist": 1.44,
+      "value": "240.11B",
+      "ema20": 3199.68,
       "ema20_break_age": "+1",
-      "quality": "HIGH"
+      "quality": "MED"
+    },
+    {
+      "ticker": "MPXL.JK",
+      "price": 220.0,
+      "spike_ratio": 31.92,
+      "hist_age": "+1",
+      "macd_hist": 2.39,
+      "value": "16.14B",
+      "ema20": 171.6,
+      "ema20_break_age": "+1",
+      "quality": "MED"
     }
   ]
 }
