@@ -1,15 +1,28 @@
 {
   "status": "success",
-  "generated_at": "2026-09-23 15:56:05",
-  "started_at": "2026-09-23 15:45:46",
-  "finished_at": "2026-09-23 15:56:05",
-  "duration_seconds": 619.2,
-  "duration_text": "10m 19s",
+  "generated_at": "2026-09-24 10:22:37",
+  "started_at": "2026-09-24 10:13:46",
+  "finished_at": "2026-09-24 10:22:37",
+  "duration_seconds": 531.4,
+  "duration_text": "8m 51s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 5,
+  "candidates": 4,
   "data": [
+    {
+      "ticker": "ACRO.JK",
+      "ob_range": "63-61",
+      "sl": 60,
+      "sl_pct": 3.2,
+      "tp": 71.0,
+      "tp_pct": 12.7,
+      "rr": 3.92,
+      "distance": 3.17,
+      "bos_age": 1,
+      "ob_size": 3.08,
+      "score": 89.51
+    },
     {
       "ticker": "NOBU.JK",
       "ob_range": "525-510",
@@ -18,23 +31,10 @@
       "tp": 565.0,
       "tp_pct": 7.6,
       "rr": 2.62,
-      "distance": 4.76,
-      "bos_age": 1,
-      "ob_size": 2.73,
-      "score": 86.46
-    },
-    {
-      "ticker": "SCCO.JK",
-      "ob_range": "2560-2450",
-      "sl": 2447,
-      "sl_pct": 4.4,
-      "tp": 3290.0,
-      "tp_pct": 28.5,
-      "rr": 6.51,
-      "distance": 2.73,
-      "bos_age": 6,
-      "ob_size": 4.18,
-      "score": 82.71
+      "distance": 2.86,
+      "bos_age": 2,
+      "ob_size": 2.78,
+      "score": 87.31
     },
     {
       "ticker": "JAWA.JK",
@@ -45,22 +45,9 @@
       "tp_pct": 14.1,
       "rr": 2.25,
       "distance": 4.29,
-      "bos_age": 2,
+      "bos_age": 3,
       "ob_size": 5.88,
-      "score": 81.57
-    },
-    {
-      "ticker": "MAPB.JK",
-      "ob_range": "1115-1070",
-      "sl": 1069,
-      "sl_pct": 4.1,
-      "tp": 1225.0,
-      "tp_pct": 9.9,
-      "rr": 2.4,
-      "distance": 1.79,
-      "bos_age": 10,
-      "ob_size": 3.96,
-      "score": 80.13
+      "score": 80.57
     },
     {
       "ticker": "ARGO.JK",
@@ -70,10 +57,10 @@
       "tp": 1200.0,
       "tp_pct": 2.6,
       "rr": 2.94,
-      "distance": 4.27,
-      "bos_age": 1,
+      "distance": 3.85,
+      "bos_age": 2,
       "ob_size": 0.82,
-      "score": 75.72
+      "score": 75.14
     }
   ]
 }
