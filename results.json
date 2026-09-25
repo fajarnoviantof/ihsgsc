@@ -1,15 +1,28 @@
 {
   "status": "success",
-  "generated_at": "2026-09-24 15:41:36",
-  "started_at": "2026-09-24 15:31:42",
-  "finished_at": "2026-09-24 15:41:36",
-  "duration_seconds": 593.4,
-  "duration_text": "9m 53s",
+  "generated_at": "2026-09-25 10:40:49",
+  "started_at": "2026-09-25 10:31:18",
+  "finished_at": "2026-09-25 10:40:49",
+  "duration_seconds": 571.3,
+  "duration_text": "9m 31s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 2,
+  "candidates": 3,
   "data": [
+    {
+      "ticker": "PMUI.JK",
+      "ob_range": "106-103",
+      "sl": 102,
+      "sl_pct": 2.9,
+      "tp": 116.0,
+      "tp_pct": 9.4,
+      "rr": 3.26,
+      "distance": 4.72,
+      "bos_age": 1,
+      "ob_size": 2.7,
+      "score": 88.69
+    },
     {
       "ticker": "JAWA.JK",
       "ob_range": "163-153",
@@ -18,10 +31,10 @@
       "tp": 186.0,
       "tp_pct": 14.1,
       "rr": 2.25,
-      "distance": 4.91,
-      "bos_age": 3,
-      "ob_size": 5.85,
-      "score": 79.98
+      "distance": 4.29,
+      "bos_age": 4,
+      "ob_size": 5.88,
+      "score": 79.57
     },
     {
       "ticker": "AISA.JK",
@@ -31,10 +44,10 @@
       "tp": 123.0,
       "tp_pct": 5.1,
       "rr": 2.95,
-      "distance": 3.42,
-      "bos_age": 4,
-      "ob_size": 1.65,
-      "score": 79.58
+      "distance": 2.56,
+      "bos_age": 5,
+      "ob_size": 1.67,
+      "score": 79.42
     }
   ]
 }

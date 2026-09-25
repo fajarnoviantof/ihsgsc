@@ -1,24 +1,24 @@
 {
   "status": "success",
   "trigger": "schedule",
-  "current_slot": null,
-  "finished_at": "2026-09-25 07:06:18",
+  "current_slot": "10:00",
+  "finished_at": "2026-09-25 10:46:31",
   "ob": {
-    "status": "skipped",
-    "generated_at": "2026-09-24 15:41:36",
+    "status": "success",
+    "generated_at": "2026-09-25 10:40:49",
     "processed": 962,
     "total_tickers": 962,
-    "candidates": 2,
+    "candidates": 3,
     "errors": 41,
-    "duration_text": "9m 53s"
+    "duration_text": "9m 31s"
   },
   "macd": {
-    "status": "skipped",
-    "generated_at": "2026-09-24 15:47:25",
+    "status": "success",
+    "generated_at": "2026-09-25 10:46:31",
     "processed": 962,
     "total_tickers": 962,
-    "candidates": 2,
+    "candidates": 1,
     "errors": 0,
-    "duration_text": "5m 48s"
+    "duration_text": "5m 41s"
   }
 }

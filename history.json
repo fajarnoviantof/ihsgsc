@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 07:06:18",
+  "updated_at": "2026-09-25 10:46:31",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,80 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-09-25 10:46:31",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 41s",
+      "data": [
+        {
+          "ticker": "BBSS.JK",
+          "price": 95.0,
+          "spike_ratio": 1.67,
+          "hist_age": "+1",
+          "macd_hist": 0.13,
+          "value": "15.23B",
+          "ema20": 92.17,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-09-25 10:40:49",
+      "candidates": 3,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 31s",
+      "data": [
+        {
+          "ticker": "PMUI.JK",
+          "ob_range": "106-103",
+          "sl": 102,
+          "sl_pct": 2.9,
+          "tp": 116.0,
+          "tp_pct": 9.4,
+          "rr": 3.26,
+          "distance": 4.72,
+          "bos_age": 1,
+          "ob_size": 2.7,
+          "score": 88.69
+        },
+        {
+          "ticker": "JAWA.JK",
+          "ob_range": "163-153",
+          "sl": 152,
+          "sl_pct": 6.3,
+          "tp": 186.0,
+          "tp_pct": 14.1,
+          "rr": 2.25,
+          "distance": 4.29,
+          "bos_age": 4,
+          "ob_size": 5.88,
+          "score": 79.57
+        },
+        {
+          "ticker": "AISA.JK",
+          "ob_range": "117-115",
+          "sl": 114,
+          "sl_pct": 1.7,
+          "tp": 123.0,
+          "tp_pct": 5.1,
+          "rr": 2.95,
+          "distance": 2.56,
+          "bos_age": 5,
+          "ob_size": 1.67,
+          "score": 79.42
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "15:00",
