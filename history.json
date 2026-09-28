@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 11:00:33",
+  "updated_at": "2026-09-28 17:27:08",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,128 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "17:00",
+      "generated_at": "2026-09-28 17:27:07",
+      "candidates": 9,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 52s",
+      "data": [
+        {
+          "ticker": "BTEK.JK",
+          "price": 14.0,
+          "spike_ratio": 4.67,
+          "hist_age": "+1",
+          "macd_hist": 0.15,
+          "value": "13.97B",
+          "ema20": 11.44,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "WMPP.JK",
+          "price": 33.0,
+          "spike_ratio": 4.77,
+          "hist_age": "+1",
+          "macd_hist": 0.07,
+          "value": "7.97B",
+          "ema20": 29.36,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "TAXI.JK",
+          "price": 18.0,
+          "spike_ratio": 7.34,
+          "hist_age": "+1",
+          "macd_hist": 0.21,
+          "value": "17.91B",
+          "ema20": 14.65,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "PBRX.JK",
+          "price": 32.0,
+          "spike_ratio": 12.42,
+          "hist_age": "+1",
+          "macd_hist": 0.25,
+          "value": "9.02B",
+          "ema20": 26.48,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "BEKS.JK",
+          "price": 29.0,
+          "spike_ratio": 13.35,
+          "hist_age": "+1",
+          "macd_hist": 0.29,
+          "value": "17.12B",
+          "ema20": 23.33,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "TAMU.JK",
+          "price": 35.0,
+          "spike_ratio": 15.26,
+          "hist_age": "+1",
+          "macd_hist": 0.26,
+          "value": "6.47B",
+          "ema20": 26.86,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "MIRA.JK",
+          "price": 32.0,
+          "spike_ratio": 16.3,
+          "hist_age": "+1",
+          "macd_hist": 0.44,
+          "value": "5.90B",
+          "ema20": 25.1,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "BLTA.JK",
+          "price": 43.0,
+          "spike_ratio": 24.85,
+          "hist_age": "+1",
+          "macd_hist": 0.67,
+          "value": "25.82B",
+          "ema20": 33.25,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "PURA.JK",
+          "price": 39.0,
+          "spike_ratio": 10.89,
+          "hist_age": "+3",
+          "macd_hist": 0.44,
+          "value": "8.78B",
+          "ema20": 32.85,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "17:00",
+      "generated_at": "2026-09-28 17:21:15",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 38s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",

@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-09-28 11:00:33",
-  "started_at": "2026-09-28 10:54:33",
-  "finished_at": "2026-09-28 11:00:33",
-  "duration_seconds": 360.2,
-  "duration_text": "6m 0s",
+  "generated_at": "2026-09-28 17:27:07",
+  "started_at": "2026-09-28 17:21:15",
+  "finished_at": "2026-09-28 17:27:07",
+  "duration_seconds": 352.1,
+  "duration_text": "5m 52s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 4,
+  "candidates": 9,
   "data": [
     {
       "ticker": "BTEK.JK",
@@ -16,19 +16,41 @@
       "spike_ratio": 4.67,
       "hist_age": "+1",
       "macd_hist": 0.15,
-      "value": "13.64B",
+      "value": "13.97B",
       "ema20": 11.44,
       "ema20_break_age": "+1",
       "quality": "MED"
     },
     {
-      "ticker": "TAXI.JK",
-      "price": 17.0,
-      "spike_ratio": 5.5,
+      "ticker": "WMPP.JK",
+      "price": 33.0,
+      "spike_ratio": 4.77,
       "hist_age": "+1",
-      "macd_hist": 0.15,
-      "value": "8.62B",
-      "ema20": 14.55,
+      "macd_hist": 0.07,
+      "value": "7.97B",
+      "ema20": 29.36,
+      "ema20_break_age": "+1",
+      "quality": "LOW"
+    },
+    {
+      "ticker": "TAXI.JK",
+      "price": 18.0,
+      "spike_ratio": 7.34,
+      "hist_age": "+1",
+      "macd_hist": 0.21,
+      "value": "17.91B",
+      "ema20": 14.65,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "PBRX.JK",
+      "price": 32.0,
+      "spike_ratio": 12.42,
+      "hist_age": "+1",
+      "macd_hist": 0.25,
+      "value": "9.02B",
+      "ema20": 26.48,
       "ema20_break_age": "+1",
       "quality": "MED"
     },
@@ -38,10 +60,32 @@
       "spike_ratio": 13.35,
       "hist_age": "+1",
       "macd_hist": 0.29,
-      "value": "16.46B",
+      "value": "17.12B",
       "ema20": 23.33,
       "ema20_break_age": "+1",
       "quality": "MED"
+    },
+    {
+      "ticker": "TAMU.JK",
+      "price": 35.0,
+      "spike_ratio": 15.26,
+      "hist_age": "+1",
+      "macd_hist": 0.26,
+      "value": "6.47B",
+      "ema20": 26.86,
+      "ema20_break_age": "+1",
+      "quality": "LOW"
+    },
+    {
+      "ticker": "MIRA.JK",
+      "price": 32.0,
+      "spike_ratio": 16.3,
+      "hist_age": "+1",
+      "macd_hist": 0.44,
+      "value": "5.90B",
+      "ema20": 25.1,
+      "ema20_break_age": "+1",
+      "quality": "LOW"
     },
     {
       "ticker": "BLTA.JK",
@@ -49,10 +93,21 @@
       "spike_ratio": 24.85,
       "hist_age": "+1",
       "macd_hist": 0.67,
-      "value": "13.24B",
+      "value": "25.82B",
       "ema20": 33.25,
       "ema20_break_age": "+1",
       "quality": "MED"
+    },
+    {
+      "ticker": "PURA.JK",
+      "price": 39.0,
+      "spike_ratio": 10.89,
+      "hist_age": "+3",
+      "macd_hist": 0.44,
+      "value": "8.78B",
+      "ema20": 32.85,
+      "ema20_break_age": "+1",
+      "quality": "LOW"
     }
   ]
 }
