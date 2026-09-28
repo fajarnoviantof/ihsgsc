@@ -1,13 +1,58 @@
 {
   "status": "success",
-  "generated_at": "2026-09-25 16:21:02",
-  "started_at": "2026-09-25 16:15:23",
-  "finished_at": "2026-09-25 16:21:02",
-  "duration_seconds": 338.4,
-  "duration_text": "5m 38s",
+  "generated_at": "2026-09-28 11:00:33",
+  "started_at": "2026-09-28 10:54:33",
+  "finished_at": "2026-09-28 11:00:33",
+  "duration_seconds": 360.2,
+  "duration_text": "6m 0s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 4,
+  "data": [
+    {
+      "ticker": "BTEK.JK",
+      "price": 14.0,
+      "spike_ratio": 4.67,
+      "hist_age": "+1",
+      "macd_hist": 0.15,
+      "value": "13.64B",
+      "ema20": 11.44,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "TAXI.JK",
+      "price": 17.0,
+      "spike_ratio": 5.5,
+      "hist_age": "+1",
+      "macd_hist": 0.15,
+      "value": "8.62B",
+      "ema20": 14.55,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "BEKS.JK",
+      "price": 29.0,
+      "spike_ratio": 13.35,
+      "hist_age": "+1",
+      "macd_hist": 0.29,
+      "value": "16.46B",
+      "ema20": 23.33,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "BLTA.JK",
+      "price": 43.0,
+      "spike_ratio": 24.85,
+      "hist_age": "+1",
+      "macd_hist": 0.67,
+      "value": "13.24B",
+      "ema20": 33.25,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    }
+  ]
 }
