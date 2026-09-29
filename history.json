@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 08:19:20",
+  "updated_at": "2026-09-29 11:35:16",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-09-29 11:35:16",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 52s",
+      "data": [
+        {
+          "ticker": "MDKA.JK",
+          "price": 2960.0,
+          "spike_ratio": 0.63,
+          "hist_age": "+4",
+          "macd_hist": 0.07,
+          "value": "101.70B",
+          "ema20": 2949.09,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-09-29 11:29:22",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 42s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "17:00",
