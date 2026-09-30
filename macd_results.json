@@ -1,13 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-09-30 11:18:46",
-  "started_at": "2026-09-30 11:12:49",
-  "finished_at": "2026-09-30 11:18:46",
-  "duration_seconds": 356.3,
-  "duration_text": "5m 56s",
+  "generated_at": "2026-09-30 17:44:43",
+  "started_at": "2026-09-30 17:38:58",
+  "finished_at": "2026-09-30 17:44:43",
+  "duration_seconds": 345.3,
+  "duration_text": "5m 45s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 1,
+  "data": [
+    {
+      "ticker": "HRTA.JK",
+      "price": 2280.0,
+      "spike_ratio": 2.2,
+      "hist_age": "+1",
+      "macd_hist": 0.05,
+      "value": "27.33B",
+      "ema20": 2212.65,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    }
+  ]
 }
