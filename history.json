@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 07:52:43",
+  "updated_at": "2026-10-01 11:33:08",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-10-01 11:33:08",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 28s",
+      "data": [
+        {
+          "ticker": "GEMS.JK",
+          "price": 7975.0,
+          "spike_ratio": 7.07,
+          "hist_age": "+1",
+          "macd_hist": 4.35,
+          "value": "7.17B",
+          "ema20": 7323.71,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-10-01 11:26:39",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 13s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "17:00",

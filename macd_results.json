@@ -1,25 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-09-30 17:44:43",
-  "started_at": "2026-09-30 17:38:58",
-  "finished_at": "2026-09-30 17:44:43",
-  "duration_seconds": 345.3,
-  "duration_text": "5m 45s",
+  "generated_at": "2026-10-01 11:33:08",
+  "started_at": "2026-10-01 11:26:40",
+  "finished_at": "2026-10-01 11:33:08",
+  "duration_seconds": 388.4,
+  "duration_text": "6m 28s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
   "candidates": 1,
   "data": [
     {
-      "ticker": "HRTA.JK",
-      "price": 2280.0,
-      "spike_ratio": 2.2,
+      "ticker": "GEMS.JK",
+      "price": 7975.0,
+      "spike_ratio": 7.07,
       "hist_age": "+1",
-      "macd_hist": 0.05,
-      "value": "27.33B",
-      "ema20": 2212.65,
+      "macd_hist": 4.35,
+      "value": "7.17B",
+      "ema20": 7323.71,
       "ema20_break_age": "+1",
-      "quality": "MED"
+      "quality": "LOW"
     }
   ]
 }
