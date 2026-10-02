@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 08:07:10",
+  "updated_at": "2026-10-02 11:22:49",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-10-02 11:22:49",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 37s",
+      "data": [
+        {
+          "ticker": "CMNT.JK",
+          "price": 765.0,
+          "spike_ratio": 1.87,
+          "hist_age": "+2",
+          "macd_hist": 1.7,
+          "value": "5.27B",
+          "ema20": 752.7,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-10-02 11:17:10",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "8m 48s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",

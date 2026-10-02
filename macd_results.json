@@ -1,25 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-10-01 11:33:08",
-  "started_at": "2026-10-01 11:26:40",
-  "finished_at": "2026-10-01 11:33:08",
-  "duration_seconds": 388.4,
-  "duration_text": "6m 28s",
+  "generated_at": "2026-10-02 11:22:49",
+  "started_at": "2026-10-02 11:17:11",
+  "finished_at": "2026-10-02 11:22:49",
+  "duration_seconds": 337.8,
+  "duration_text": "5m 37s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
   "candidates": 1,
   "data": [
     {
-      "ticker": "GEMS.JK",
-      "price": 7975.0,
-      "spike_ratio": 7.07,
-      "hist_age": "+1",
-      "macd_hist": 4.35,
-      "value": "7.17B",
-      "ema20": 7323.71,
+      "ticker": "CMNT.JK",
+      "price": 765.0,
+      "spike_ratio": 1.87,
+      "hist_age": "+2",
+      "macd_hist": 1.7,
+      "value": "5.27B",
+      "ema20": 752.7,
       "ema20_break_age": "+1",
-      "quality": "LOW"
+      "quality": "HIGH"
     }
   ]
 }
