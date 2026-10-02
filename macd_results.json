@@ -1,25 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-10-02 11:22:49",
-  "started_at": "2026-10-02 11:17:11",
-  "finished_at": "2026-10-02 11:22:49",
-  "duration_seconds": 337.8,
-  "duration_text": "5m 37s",
+  "generated_at": "2026-10-02 17:45:37",
+  "started_at": "2026-10-02 17:39:52",
+  "finished_at": "2026-10-02 17:45:37",
+  "duration_seconds": 345.2,
+  "duration_text": "5m 45s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
-  "data": [
-    {
-      "ticker": "CMNT.JK",
-      "price": 765.0,
-      "spike_ratio": 1.87,
-      "hist_age": "+2",
-      "macd_hist": 1.7,
-      "value": "5.27B",
-      "ema20": 752.7,
-      "ema20_break_age": "+1",
-      "quality": "HIGH"
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }
