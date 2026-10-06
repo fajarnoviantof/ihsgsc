@@ -1,13 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-10-05 11:23:27",
-  "started_at": "2026-10-05 11:17:45",
-  "finished_at": "2026-10-05 11:23:27",
-  "duration_seconds": 341.8,
-  "duration_text": "5m 41s",
+  "generated_at": "2026-10-06 12:13:39",
+  "started_at": "2026-10-06 12:07:44",
+  "finished_at": "2026-10-06 12:13:39",
+  "duration_seconds": 355.2,
+  "duration_text": "5m 55s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 2,
+  "data": [
+    {
+      "ticker": "BYAN.JK",
+      "price": 12950.0,
+      "spike_ratio": 1.24,
+      "hist_age": "+1",
+      "macd_hist": 69.99,
+      "value": "41.83B",
+      "ema20": 12386.62,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "FUTR.JK",
+      "price": 278.0,
+      "spike_ratio": 3.3,
+      "hist_age": "+1",
+      "macd_hist": 0.2,
+      "value": "7.95B",
+      "ema20": 274.38,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    }
+  ]
 }
