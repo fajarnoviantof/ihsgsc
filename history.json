@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 08:03:17",
+  "updated_at": "2026-10-07 11:42:30",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,51 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-10-07 11:42:29",
+      "candidates": 2,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 39s",
+      "data": [
+        {
+          "ticker": "REAL.JK",
+          "price": 48.0,
+          "spike_ratio": 3.52,
+          "hist_age": "+1",
+          "macd_hist": 0.02,
+          "value": "15.72B",
+          "ema20": 45.06,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "ENAK.JK",
+          "price": 234.0,
+          "spike_ratio": 10.74,
+          "hist_age": "+1",
+          "macd_hist": 2.63,
+          "value": "7.78B",
+          "ema20": 207.06,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-10-07 11:35:49",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 29s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
