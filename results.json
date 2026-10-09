@@ -1,53 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-10-08 11:44:39",
-  "started_at": "2026-10-08 11:35:41",
-  "finished_at": "2026-10-08 11:44:39",
-  "duration_seconds": 538.2,
-  "duration_text": "8m 58s",
+  "generated_at": "2026-10-09 11:48:38",
+  "started_at": "2026-10-09 11:38:52",
+  "finished_at": "2026-10-09 11:48:38",
+  "duration_seconds": 585.9,
+  "duration_text": "9m 45s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 3,
-  "data": [
-    {
-      "ticker": "BKDP.JK",
-      "ob_range": "184-178",
-      "sl": 177,
-      "sl_pct": 3.3,
-      "tp": 198.0,
-      "tp_pct": 7.6,
-      "rr": 2.29,
-      "distance": 3.8,
-      "bos_age": 2,
-      "ob_size": 3.14,
-      "score": 85.56
-    },
-    {
-      "ticker": "ENAK.JK",
-      "ob_range": "190-179",
-      "sl": 178,
-      "sl_pct": 5.9,
-      "tp": 256.0,
-      "tp_pct": 34.7,
-      "rr": 5.88,
-      "distance": 2.63,
-      "bos_age": 1,
-      "ob_size": 5.64,
-      "score": 84.82
-    },
-    {
-      "ticker": "CSIS.JK",
-      "ob_range": "181-165",
-      "sl": 164,
-      "sl_pct": 9.0,
-      "tp": 214.0,
-      "tp_pct": 18.2,
-      "rr": 2.02,
-      "distance": 2.76,
-      "bos_age": 2,
-      "ob_size": 8.6,
-      "score": 77.62
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }

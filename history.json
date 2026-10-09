@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 08:31:07",
+  "updated_at": "2026-10-09 11:54:46",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,117 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-10-09 11:54:46",
+      "candidates": 8,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 7s",
+      "data": [
+        {
+          "ticker": "ADMR.JK",
+          "price": 1540.0,
+          "spike_ratio": 1.53,
+          "hist_age": "+1",
+          "macd_hist": 3.77,
+          "value": "14.93B",
+          "ema20": 1525.66,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "EMAS.JK",
+          "price": 8000.0,
+          "spike_ratio": 2.13,
+          "hist_age": "+1",
+          "macd_hist": 19.18,
+          "value": "55.54B",
+          "ema20": 7787.57,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "MAHA.JK",
+          "price": 146.0,
+          "spike_ratio": 5.21,
+          "hist_age": "+1",
+          "macd_hist": 0.35,
+          "value": "5.17B",
+          "ema20": 141.2,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "ADRO.JK",
+          "price": 2580.0,
+          "spike_ratio": 0.81,
+          "hist_age": "+2",
+          "macd_hist": 2.61,
+          "value": "29.03B",
+          "ema20": 2571.89,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "IATA.JK",
+          "price": 110.0,
+          "spike_ratio": 2.09,
+          "hist_age": "+2",
+          "macd_hist": 0.75,
+          "value": "68.15B",
+          "ema20": 105.6,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "INDF.JK",
+          "price": 6950.0,
+          "spike_ratio": 0.9,
+          "hist_age": "+3",
+          "macd_hist": 16.68,
+          "value": "6.94B",
+          "ema20": 6941.96,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "COCO.JK",
+          "price": 124.0,
+          "spike_ratio": 0.88,
+          "hist_age": "+4",
+          "macd_hist": 1.22,
+          "value": "26.88B",
+          "ema20": 119.95,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "BUVA.JK",
+          "price": 670.0,
+          "spike_ratio": 1.1,
+          "hist_age": "+4",
+          "macd_hist": 7.29,
+          "value": "24.03B",
+          "ema20": 668.55,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-10-09 11:48:38",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 45s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
