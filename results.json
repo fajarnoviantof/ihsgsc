@@ -1,13 +1,27 @@
 {
   "status": "success",
-  "generated_at": "2026-10-09 11:48:38",
-  "started_at": "2026-10-09 11:38:52",
-  "finished_at": "2026-10-09 11:48:38",
-  "duration_seconds": 585.9,
-  "duration_text": "9m 45s",
+  "generated_at": "2026-10-12 11:34:53",
+  "started_at": "2026-10-12 11:25:03",
+  "finished_at": "2026-10-12 11:34:53",
+  "duration_seconds": 589.2,
+  "duration_text": "9m 49s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 0,
-  "data": []
+  "candidates": 1,
+  "data": [
+    {
+      "ticker": "MOLI.JK",
+      "ob_range": "376-350",
+      "sl": 349,
+      "sl_pct": 7.0,
+      "tp": 442.0,
+      "tp_pct": 17.6,
+      "rr": 2.49,
+      "distance": 3.19,
+      "bos_age": 8,
+      "ob_size": 6.7,
+      "score": 75.06
+    }
+  ]
 }
