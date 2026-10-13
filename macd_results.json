@@ -1,58 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-10-12 11:41:05",
-  "started_at": "2026-10-12 11:34:53",
-  "finished_at": "2026-10-12 11:41:05",
-  "duration_seconds": 372.0,
-  "duration_text": "6m 12s",
+  "generated_at": "2026-10-13 10:03:38",
+  "started_at": "2026-10-13 09:56:29",
+  "finished_at": "2026-10-13 10:03:38",
+  "duration_seconds": 428.7,
+  "duration_text": "7m 8s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 4,
+  "candidates": 1,
   "data": [
     {
-      "ticker": "CPIN.JK",
-      "price": 3020.0,
-      "spike_ratio": 2.2,
-      "hist_age": "+1",
-      "macd_hist": 1.86,
-      "value": "16.97B",
-      "ema20": 3002.6,
+      "ticker": "INKP.JK",
+      "price": 8350.0,
+      "spike_ratio": 0.54,
+      "hist_age": "+2",
+      "macd_hist": 11.81,
+      "value": "5.57B",
+      "ema20": 8342.09,
       "ema20_break_age": "+1",
       "quality": "MED"
-    },
-    {
-      "ticker": "INTP.JK",
-      "price": 5250.0,
-      "spike_ratio": 2.46,
-      "hist_age": "+1",
-      "macd_hist": 16.43,
-      "value": "6.92B",
-      "ema20": 5089.16,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "KBLV.JK",
-      "price": 122.0,
-      "spike_ratio": 7.19,
-      "hist_age": "+1",
-      "macd_hist": 1.28,
-      "value": "12.17B",
-      "ema20": 112.06,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
-    },
-    {
-      "ticker": "MLPT.JK",
-      "price": 1140.0,
-      "spike_ratio": 7.98,
-      "hist_age": "+1",
-      "macd_hist": 12.21,
-      "value": "12.04B",
-      "ema20": 1036.3,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
     }
   ]
 }

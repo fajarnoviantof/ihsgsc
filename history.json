@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12 19:18:12",
+  "updated_at": "2026-10-13 10:03:38",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-10-13 10:03:38",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "7m 8s",
+      "data": [
+        {
+          "ticker": "INKP.JK",
+          "price": 8350.0,
+          "spike_ratio": 0.54,
+          "hist_age": "+2",
+          "macd_hist": 11.81,
+          "value": "5.57B",
+          "ema20": 8342.09,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "09:00",
+      "generated_at": "2026-10-13 09:56:29",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 56s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
