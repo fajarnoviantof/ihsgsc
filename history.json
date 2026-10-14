@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14 07:40:40",
+  "updated_at": "2026-10-14 10:51:43",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,87 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-10-14 10:51:43",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 45s",
+      "data": [
+        {
+          "ticker": "ADRO.JK",
+          "price": 2560.0,
+          "spike_ratio": 1.0,
+          "hist_age": "+1",
+          "macd_hist": 0.3,
+          "value": "18.18B",
+          "ema20": 2559.9,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "ELSA.JK",
+          "price": 675.0,
+          "spike_ratio": 1.8,
+          "hist_age": "+1",
+          "macd_hist": 1.74,
+          "value": "6.25B",
+          "ema20": 660.22,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "SMRA.JK",
+          "price": 264.0,
+          "spike_ratio": 1.54,
+          "hist_age": "+3",
+          "macd_hist": 3.78,
+          "value": "10.56B",
+          "ema20": 258.04,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "PANI.JK",
+          "price": 4910.0,
+          "spike_ratio": 1.33,
+          "hist_age": "+5",
+          "macd_hist": 59.51,
+          "value": "11.42B",
+          "ema20": 4871.4,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-10-14 10:45:57",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 23s",
+      "data": [
+        {
+          "ticker": "RDTX.JK",
+          "ob_range": "12350-12100",
+          "sl": 12095,
+          "sl_pct": 2.1,
+          "tp": 13575.0,
+          "tp_pct": 9.9,
+          "rr": 4.82,
+          "distance": 1.42,
+          "bos_age": 1,
+          "ob_size": 2.0,
+          "score": 93.52
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",

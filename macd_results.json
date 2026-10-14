@@ -1,25 +1,58 @@
 {
   "status": "success",
-  "generated_at": "2026-10-13 10:03:38",
-  "started_at": "2026-10-13 09:56:29",
-  "finished_at": "2026-10-13 10:03:38",
-  "duration_seconds": 428.7,
-  "duration_text": "7m 8s",
+  "generated_at": "2026-10-14 10:51:43",
+  "started_at": "2026-10-14 10:45:58",
+  "finished_at": "2026-10-14 10:51:43",
+  "duration_seconds": 345.5,
+  "duration_text": "5m 45s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 4,
   "data": [
     {
-      "ticker": "INKP.JK",
-      "price": 8350.0,
-      "spike_ratio": 0.54,
-      "hist_age": "+2",
-      "macd_hist": 11.81,
-      "value": "5.57B",
-      "ema20": 8342.09,
+      "ticker": "ADRO.JK",
+      "price": 2560.0,
+      "spike_ratio": 1.0,
+      "hist_age": "+1",
+      "macd_hist": 0.3,
+      "value": "18.18B",
+      "ema20": 2559.9,
       "ema20_break_age": "+1",
       "quality": "MED"
+    },
+    {
+      "ticker": "ELSA.JK",
+      "price": 675.0,
+      "spike_ratio": 1.8,
+      "hist_age": "+1",
+      "macd_hist": 1.74,
+      "value": "6.25B",
+      "ema20": 660.22,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "SMRA.JK",
+      "price": 264.0,
+      "spike_ratio": 1.54,
+      "hist_age": "+3",
+      "macd_hist": 3.78,
+      "value": "10.56B",
+      "ema20": 258.04,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "PANI.JK",
+      "price": 4910.0,
+      "spike_ratio": 1.33,
+      "hist_age": "+5",
+      "macd_hist": 59.51,
+      "value": "11.42B",
+      "ema20": 4871.4,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
     }
   ]
 }

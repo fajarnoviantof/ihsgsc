@@ -1,13 +1,27 @@
 {
   "status": "success",
-  "generated_at": "2026-10-13 09:56:29",
-  "started_at": "2026-10-13 09:44:32",
-  "finished_at": "2026-10-13 09:56:29",
-  "duration_seconds": 716.3,
-  "duration_text": "11m 56s",
+  "generated_at": "2026-10-14 10:45:57",
+  "started_at": "2026-10-14 10:36:34",
+  "finished_at": "2026-10-14 10:45:57",
+  "duration_seconds": 563.3,
+  "duration_text": "9m 23s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 0,
-  "data": []
+  "candidates": 1,
+  "data": [
+    {
+      "ticker": "RDTX.JK",
+      "ob_range": "12350-12100",
+      "sl": 12095,
+      "sl_pct": 2.1,
+      "tp": 13575.0,
+      "tp_pct": 9.9,
+      "rr": 4.82,
+      "distance": 1.42,
+      "bos_age": 1,
+      "ob_size": 2.0,
+      "score": 93.52
+    }
+  ]
 }
