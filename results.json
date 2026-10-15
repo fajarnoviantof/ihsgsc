@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-10-15 10:28:38",
-  "started_at": "2026-10-15 10:16:48",
-  "finished_at": "2026-10-15 10:28:38",
-  "duration_seconds": 710.3,
-  "duration_text": "11m 50s",
+  "generated_at": "2026-10-15 15:41:35",
+  "started_at": "2026-10-15 15:30:35",
+  "finished_at": "2026-10-15 15:41:35",
+  "duration_seconds": 660.0,
+  "duration_text": "11m 0s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
@@ -18,23 +18,23 @@
       "tp": 13575.0,
       "tp_pct": 9.9,
       "rr": 4.82,
-      "distance": 2.83,
+      "distance": 1.42,
       "bos_age": 2,
-      "ob_size": 1.97,
-      "score": 91.14
+      "ob_size": 2.0,
+      "score": 92.52
     },
     {
-      "ticker": "SICO.JK",
-      "ob_range": "117-112",
-      "sl": 111,
-      "sl_pct": 4.4,
-      "tp": 130.0,
-      "tp_pct": 11.1,
-      "rr": 2.55,
-      "distance": 1.71,
-      "bos_age": 1,
-      "ob_size": 4.2,
-      "score": 88.73
+      "ticker": "SAMF.JK",
+      "ob_range": "300-296",
+      "sl": 295,
+      "sl_pct": 1.4,
+      "tp": 386.0,
+      "tp_pct": 28.7,
+      "rr": 21.08,
+      "distance": 4.0,
+      "bos_age": 9,
+      "ob_size": 1.28,
+      "score": 84.36
     }
   ]
 }
