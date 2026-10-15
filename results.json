@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "generated_at": "2026-10-14 16:13:30",
-  "started_at": "2026-10-14 16:01:56",
-  "finished_at": "2026-10-14 16:13:30",
-  "duration_seconds": 693.8,
-  "duration_text": "11m 33s",
+  "generated_at": "2026-10-15 10:28:38",
+  "started_at": "2026-10-15 10:16:48",
+  "finished_at": "2026-10-15 10:28:38",
+  "duration_seconds": 710.3,
+  "duration_text": "11m 50s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
       "ticker": "RDTX.JK",
@@ -18,10 +18,23 @@
       "tp": 13575.0,
       "tp_pct": 9.9,
       "rr": 4.82,
-      "distance": 3.24,
+      "distance": 2.83,
+      "bos_age": 2,
+      "ob_size": 1.97,
+      "score": 91.14
+    },
+    {
+      "ticker": "SICO.JK",
+      "ob_range": "117-112",
+      "sl": 111,
+      "sl_pct": 4.4,
+      "tp": 130.0,
+      "tp_pct": 11.1,
+      "rr": 2.55,
+      "distance": 1.71,
       "bos_age": 1,
-      "ob_size": 1.96,
-      "score": 91.74
+      "ob_size": 4.2,
+      "score": 88.73
     }
   ]
 }

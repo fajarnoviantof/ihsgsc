@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15 07:09:33",
+  "updated_at": "2026-10-15 10:35:01",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,100 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-10-15 10:35:01",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 22s",
+      "data": [
+        {
+          "ticker": "MEDS.JK",
+          "price": 81.0,
+          "spike_ratio": 1.14,
+          "hist_age": "+1",
+          "macd_hist": 0.23,
+          "value": "6.00B",
+          "ema20": 77.78,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "DEFI.JK",
+          "price": 97.0,
+          "spike_ratio": 3.8,
+          "hist_age": "+1",
+          "macd_hist": 0.34,
+          "value": "12.67B",
+          "ema20": 93.11,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "ESIP.JK",
+          "price": 105.0,
+          "spike_ratio": 1.9,
+          "hist_age": "+3",
+          "macd_hist": 1.17,
+          "value": "6.20B",
+          "ema20": 103.26,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "KKES.JK",
+          "price": 76.0,
+          "spike_ratio": 0.82,
+          "hist_age": "+6",
+          "macd_hist": 0.75,
+          "value": "5.37B",
+          "ema20": 74.97,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-10-15 10:28:38",
+      "candidates": 2,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 50s",
+      "data": [
+        {
+          "ticker": "RDTX.JK",
+          "ob_range": "12350-12100",
+          "sl": 12095,
+          "sl_pct": 2.1,
+          "tp": 13575.0,
+          "tp_pct": 9.9,
+          "rr": 4.82,
+          "distance": 2.83,
+          "bos_age": 2,
+          "ob_size": 1.97,
+          "score": 91.14
+        },
+        {
+          "ticker": "SICO.JK",
+          "ob_range": "117-112",
+          "sl": 111,
+          "sl_pct": 4.4,
+          "tp": 130.0,
+          "tp_pct": 11.1,
+          "rr": 2.55,
+          "distance": 1.71,
+          "bos_age": 1,
+          "ob_size": 4.2,
+          "score": 88.73
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "16:00",
@@ -2801,83 +2895,6 @@
           "ema20": 2617.31,
           "ema20_break_age": "+1",
           "quality": "MED"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "10:00",
-      "generated_at": "2026-09-14 10:33:08",
-      "candidates": 5,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "5m 12s",
-      "data": [
-        {
-          "ticker": "ISAP.JK",
-          "ob_range": "24-23",
-          "sl": 22,
-          "sl_pct": 4.2,
-          "tp": 28.0,
-          "tp_pct": 16.7,
-          "rr": 3.92,
-          "distance": 4.17,
-          "bos_age": 2,
-          "ob_size": 4.0,
-          "score": 85.58
-        },
-        {
-          "ticker": "PZZA.JK",
-          "ob_range": "182-179",
-          "sl": 178,
-          "sl_pct": 1.7,
-          "tp": 226.0,
-          "tp_pct": 24.2,
-          "rr": 14.39,
-          "distance": 2.75,
-          "bos_age": 10,
-          "ob_size": 1.6,
-          "score": 83.97
-        },
-        {
-          "ticker": "BBRI.JK",
-          "ob_range": "3170-3110",
-          "sl": 3108,
-          "sl_pct": 1.9,
-          "tp": 3440.0,
-          "tp_pct": 8.5,
-          "rr": 4.41,
-          "distance": 3.15,
-          "bos_age": 10,
-          "ob_size": 1.83,
-          "score": 83.09
-        },
-        {
-          "ticker": "TPMA.JK",
-          "ob_range": "466-462",
-          "sl": 461,
-          "sl_pct": 0.9,
-          "tp": 498.0,
-          "tp_pct": 6.9,
-          "rr": 7.81,
-          "distance": 4.29,
-          "bos_age": 8,
-          "ob_size": 0.82,
-          "score": 81.62
-        },
-        {
-          "ticker": "PNGO.JK",
-          "ob_range": "3470-3460",
-          "sl": 3459,
-          "sl_pct": 0.3,
-          "tp": 3560.0,
-          "tp_pct": 2.6,
-          "rr": 8.93,
-          "distance": 1.44,
-          "bos_age": 5,
-          "ob_size": 0.28,
-          "score": 75.76
         }
       ]
     }
