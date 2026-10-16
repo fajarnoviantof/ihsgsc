@@ -1,47 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-10-15 15:47:54",
-  "started_at": "2026-10-15 15:41:36",
-  "finished_at": "2026-10-15 15:47:54",
-  "duration_seconds": 378.5,
-  "duration_text": "6m 18s",
+  "generated_at": "2026-10-16 10:30:32",
+  "started_at": "2026-10-16 10:23:44",
+  "finished_at": "2026-10-16 10:30:32",
+  "duration_seconds": 407.9,
+  "duration_text": "6m 47s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 3,
-  "data": [
-    {
-      "ticker": "MEDS.JK",
-      "price": 78.0,
-      "spike_ratio": 0.29,
-      "hist_age": "+1",
-      "macd_hist": 0.04,
-      "value": "8.57B",
-      "ema20": 77.49,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "DEFI.JK",
-      "price": 93.0,
-      "spike_ratio": 2.63,
-      "hist_age": "+1",
-      "macd_hist": 0.09,
-      "value": "19.68B",
-      "ema20": 92.73,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "KKES.JK",
-      "price": 77.0,
-      "spike_ratio": 1.02,
-      "hist_age": "+6",
-      "macd_hist": 0.81,
-      "value": "8.78B",
-      "ema20": 75.06,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }
