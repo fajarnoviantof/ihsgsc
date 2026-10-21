@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21 07:12:07",
+  "updated_at": "2026-10-21 10:39:04",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-10-21 10:39:04",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 9s",
+      "data": [
+        {
+          "ticker": "DMAS.JK",
+          "price": 206.0,
+          "spike_ratio": 5.46,
+          "hist_age": "+1",
+          "macd_hist": 0.17,
+          "value": "139.50B",
+          "ema20": 183.3,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-10-21 10:32:54",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "10m 1s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "16:00",

@@ -1,36 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-10-20 16:08:05",
-  "started_at": "2026-10-20 16:01:17",
-  "finished_at": "2026-10-20 16:08:05",
-  "duration_seconds": 407.5,
-  "duration_text": "6m 47s",
+  "generated_at": "2026-10-21 10:39:04",
+  "started_at": "2026-10-21 10:32:54",
+  "finished_at": "2026-10-21 10:39:04",
+  "duration_seconds": 369.2,
+  "duration_text": "6m 9s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 2,
+  "candidates": 1,
   "data": [
     {
-      "ticker": "BUKA.JK",
-      "price": 106.0,
-      "spike_ratio": 4.88,
+      "ticker": "DMAS.JK",
+      "price": 206.0,
+      "spike_ratio": 5.46,
       "hist_age": "+1",
-      "macd_hist": 0.4,
-      "value": "23.13B",
-      "ema20": 103.08,
+      "macd_hist": 0.17,
+      "value": "139.50B",
+      "ema20": 183.3,
       "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "ACES.JK",
-      "price": 336.0,
-      "spike_ratio": 1.95,
-      "hist_age": "+5",
-      "macd_hist": 1.31,
-      "value": "8.72B",
-      "ema20": 335.05,
-      "ema20_break_age": "+1",
-      "quality": "MED"
+      "quality": "LOW"
     }
   ]
 }
