@@ -1,25 +1,58 @@
 {
   "status": "success",
-  "generated_at": "2026-10-21 10:39:04",
-  "started_at": "2026-10-21 10:32:54",
-  "finished_at": "2026-10-21 10:39:04",
-  "duration_seconds": 369.2,
-  "duration_text": "6m 9s",
+  "generated_at": "2026-10-21 16:06:01",
+  "started_at": "2026-10-21 15:59:08",
+  "finished_at": "2026-10-21 16:06:01",
+  "duration_seconds": 412.8,
+  "duration_text": "6m 52s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 4,
   "data": [
     {
-      "ticker": "DMAS.JK",
-      "price": 206.0,
-      "spike_ratio": 5.46,
+      "ticker": "BTPS.JK",
+      "price": 980.0,
+      "spike_ratio": 0.97,
       "hist_age": "+1",
-      "macd_hist": 0.17,
-      "value": "139.50B",
-      "ema20": 183.3,
+      "macd_hist": 0.67,
+      "value": "8.90B",
+      "ema20": 964.3,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "DMAS.JK",
+      "price": 208.0,
+      "spike_ratio": 5.85,
+      "hist_age": "+1",
+      "macd_hist": 0.3,
+      "value": "200.77B",
+      "ema20": 183.49,
       "ema20_break_age": "+1",
       "quality": "LOW"
+    },
+    {
+      "ticker": "BAPA.JK",
+      "price": 113.0,
+      "spike_ratio": 4.22,
+      "hist_age": "+2",
+      "macd_hist": 1.65,
+      "value": "8.62B",
+      "ema20": 104.98,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "ACES.JK",
+      "price": 344.0,
+      "spike_ratio": 1.29,
+      "hist_age": "+6",
+      "macd_hist": 1.87,
+      "value": "11.10B",
+      "ema20": 335.73,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
     }
   ]
 }
