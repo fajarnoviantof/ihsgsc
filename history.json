@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 10:40:30",
+  "updated_at": "2026-10-22 16:07:49",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "16:00",
+      "generated_at": "2026-10-22 16:07:49",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 43s",
+      "data": [
+        {
+          "ticker": "ELSA.JK",
+          "price": 660.0,
+          "spike_ratio": 1.61,
+          "hist_age": "+1",
+          "macd_hist": 2.06,
+          "value": "18.10B",
+          "ema20": 644.26,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "16:00",
+      "generated_at": "2026-10-22 16:01:05",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "10m 55s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",

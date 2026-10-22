@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-10-22 10:40:29",
-  "started_at": "2026-10-22 10:33:49",
-  "finished_at": "2026-10-22 10:40:29",
-  "duration_seconds": 400.5,
-  "duration_text": "6m 40s",
+  "generated_at": "2026-10-22 16:07:49",
+  "started_at": "2026-10-22 16:01:05",
+  "finished_at": "2026-10-22 16:07:49",
+  "duration_seconds": 403.6,
+  "duration_text": "6m 43s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
@@ -12,12 +12,12 @@
   "data": [
     {
       "ticker": "ELSA.JK",
-      "price": 655.0,
-      "spike_ratio": 1.34,
+      "price": 660.0,
+      "spike_ratio": 1.61,
       "hist_age": "+1",
-      "macd_hist": 1.74,
-      "value": "6.97B",
-      "ema20": 643.79,
+      "macd_hist": 2.06,
+      "value": "18.10B",
+      "ema20": 644.26,
       "ema20_break_age": "+1",
       "quality": "MED"
     }
