@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 10:42:25",
+  "updated_at": "2026-10-23 16:04:15",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,153 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "16:00",
+      "generated_at": "2026-10-23 16:04:15",
+      "candidates": 10,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 18s",
+      "data": [
+        {
+          "ticker": "TMPO.JK",
+          "price": 158.0,
+          "spike_ratio": 0.11,
+          "hist_age": "+1",
+          "macd_hist": 0.09,
+          "value": "9.54B",
+          "ema20": 157.49,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "TLKM.JK",
+          "price": 2240.0,
+          "spike_ratio": 0.56,
+          "hist_age": "+1",
+          "macd_hist": 9.72,
+          "value": "454.59B",
+          "ema20": 2221.28,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "GGRM.JK",
+          "price": 17000.0,
+          "spike_ratio": 0.64,
+          "hist_age": "+1",
+          "macd_hist": 37.71,
+          "value": "11.09B",
+          "ema20": 16960.19,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "CARE.JK",
+          "price": 368.0,
+          "spike_ratio": 0.76,
+          "hist_age": "+1",
+          "macd_hist": 1.34,
+          "value": "141.09B",
+          "ema20": 363.53,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "LSIP.JK",
+          "price": 1470.0,
+          "spike_ratio": 0.78,
+          "hist_age": "+1",
+          "macd_hist": 1.8,
+          "value": "10.32B",
+          "ema20": 1453.26,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "JSMR.JK",
+          "price": 2670.0,
+          "spike_ratio": 2.96,
+          "hist_age": "+1",
+          "macd_hist": 14.02,
+          "value": "27.63B",
+          "ema20": 2504.88,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "WMPP.JK",
+          "price": 27.0,
+          "spike_ratio": 3.07,
+          "hist_age": "+1",
+          "macd_hist": 0.18,
+          "value": "10.70B",
+          "ema20": 24.41,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "TOBA.JK",
+          "price": 520.0,
+          "spike_ratio": 5.65,
+          "hist_age": "+1",
+          "macd_hist": 5.5,
+          "value": "90.60B",
+          "ema20": 432.5,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "WMUU.JK",
+          "price": 36.0,
+          "spike_ratio": 4.47,
+          "hist_age": "+2",
+          "macd_hist": 1.09,
+          "value": "8.95B",
+          "ema20": 31.21,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "GPRA.JK",
+          "price": 101.0,
+          "spike_ratio": 0.88,
+          "hist_age": "+3",
+          "macd_hist": 0.51,
+          "value": "11.10B",
+          "ema20": 99.23,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "15:00",
+      "generated_at": "2026-10-23 15:57:55",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 9s",
+      "data": [
+        {
+          "ticker": "BRPT.JK",
+          "ob_range": "1360-1305",
+          "sl": 1303,
+          "sl_pct": 4.1,
+          "tp": 1505.0,
+          "tp_pct": 10.7,
+          "rr": 2.59,
+          "distance": 4.04,
+          "bos_age": 2,
+          "ob_size": 3.89,
+          "score": 85.95
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",
@@ -2055,91 +2202,6 @@
           "bos_age": 1,
           "ob_size": 0.83,
           "score": 76.99
-        }
-      ]
-    },
-    {
-      "scanner": "MACD",
-      "slot": "15:00",
-      "generated_at": "2026-09-22 15:59:46",
-      "candidates": 2,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "5m 49s",
-      "data": [
-        {
-          "ticker": "DYAN.JK",
-          "price": 98.0,
-          "spike_ratio": 11.14,
-          "hist_age": "+1",
-          "macd_hist": 0.28,
-          "value": "69.66B",
-          "ema20": 87.79,
-          "ema20_break_age": "+1",
-          "quality": "LOW"
-        },
-        {
-          "ticker": "BPTR.JK",
-          "price": 99.0,
-          "spike_ratio": 33.81,
-          "hist_age": "+1",
-          "macd_hist": 1.34,
-          "value": "23.20B",
-          "ema20": 77.19,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "15:00",
-      "generated_at": "2026-09-22 15:53:56",
-      "candidates": 3,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "9m 28s",
-      "data": [
-        {
-          "ticker": "SCNP.JK",
-          "ob_range": "160-156",
-          "sl": 155,
-          "sl_pct": 2.5,
-          "tp": 175.0,
-          "tp_pct": 9.4,
-          "rr": 3.68,
-          "distance": 1.88,
-          "bos_age": 1,
-          "ob_size": 2.45,
-          "score": 92.12
-        },
-        {
-          "ticker": "AKRA.JK",
-          "ob_range": "1415-1385",
-          "sl": 1384,
-          "sl_pct": 2.2,
-          "tp": 1560.0,
-          "tp_pct": 10.2,
-          "rr": 4.75,
-          "distance": 3.18,
-          "bos_age": 10,
-          "ob_size": 2.05,
-          "score": 82.61
-        },
-        {
-          "ticker": "MAPB.JK",
-          "ob_range": "1115-1070",
-          "sl": 1069,
-          "sl_pct": 4.1,
-          "tp": 1225.0,
-          "tp_pct": 9.9,
-          "rr": 2.4,
-          "distance": 1.79,
-          "bos_age": 10,
-          "ob_size": 3.96,
-          "score": 80.13
         }
       ]
     }
