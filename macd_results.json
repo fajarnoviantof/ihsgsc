@@ -1,124 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-10-23 16:04:15",
-  "started_at": "2026-10-23 15:57:56",
-  "finished_at": "2026-10-23 16:04:15",
-  "duration_seconds": 378.9,
-  "duration_text": "6m 18s",
+  "generated_at": "2026-10-26 10:35:44",
+  "started_at": "2026-10-26 10:29:02",
+  "finished_at": "2026-10-26 10:35:44",
+  "duration_seconds": 402.7,
+  "duration_text": "6m 42s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 10,
-  "data": [
-    {
-      "ticker": "TMPO.JK",
-      "price": 158.0,
-      "spike_ratio": 0.11,
-      "hist_age": "+1",
-      "macd_hist": 0.09,
-      "value": "9.54B",
-      "ema20": 157.49,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "TLKM.JK",
-      "price": 2240.0,
-      "spike_ratio": 0.56,
-      "hist_age": "+1",
-      "macd_hist": 9.72,
-      "value": "454.59B",
-      "ema20": 2221.28,
-      "ema20_break_age": "+1",
-      "quality": "HIGH"
-    },
-    {
-      "ticker": "GGRM.JK",
-      "price": 17000.0,
-      "spike_ratio": 0.64,
-      "hist_age": "+1",
-      "macd_hist": 37.71,
-      "value": "11.09B",
-      "ema20": 16960.19,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "CARE.JK",
-      "price": 368.0,
-      "spike_ratio": 0.76,
-      "hist_age": "+1",
-      "macd_hist": 1.34,
-      "value": "141.09B",
-      "ema20": 363.53,
-      "ema20_break_age": "+1",
-      "quality": "HIGH"
-    },
-    {
-      "ticker": "LSIP.JK",
-      "price": 1470.0,
-      "spike_ratio": 0.78,
-      "hist_age": "+1",
-      "macd_hist": 1.8,
-      "value": "10.32B",
-      "ema20": 1453.26,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "JSMR.JK",
-      "price": 2670.0,
-      "spike_ratio": 2.96,
-      "hist_age": "+1",
-      "macd_hist": 14.02,
-      "value": "27.63B",
-      "ema20": 2504.88,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "WMPP.JK",
-      "price": 27.0,
-      "spike_ratio": 3.07,
-      "hist_age": "+1",
-      "macd_hist": 0.18,
-      "value": "10.70B",
-      "ema20": 24.41,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "TOBA.JK",
-      "price": 520.0,
-      "spike_ratio": 5.65,
-      "hist_age": "+1",
-      "macd_hist": 5.5,
-      "value": "90.60B",
-      "ema20": 432.5,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
-    },
-    {
-      "ticker": "WMUU.JK",
-      "price": 36.0,
-      "spike_ratio": 4.47,
-      "hist_age": "+2",
-      "macd_hist": 1.09,
-      "value": "8.95B",
-      "ema20": 31.21,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "GPRA.JK",
-      "price": 101.0,
-      "spike_ratio": 0.88,
-      "hist_age": "+3",
-      "macd_hist": 0.51,
-      "value": "11.10B",
-      "ema20": 99.23,
-      "ema20_break_age": "+1",
-      "quality": "HIGH"
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }

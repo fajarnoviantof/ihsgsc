@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 08:40:25",
+  "updated_at": "2026-10-26 10:35:45",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,28 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-10-26 10:35:44",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 42s",
+      "data": []
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-10-26 10:29:01",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 10s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "16:00",
