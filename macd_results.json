@@ -1,13 +1,91 @@
 {
   "status": "success",
-  "generated_at": "2026-10-26 16:29:42",
-  "started_at": "2026-10-26 16:24:03",
-  "finished_at": "2026-10-26 16:29:42",
-  "duration_seconds": 338.9,
-  "duration_text": "5m 38s",
+  "generated_at": "2026-10-27 11:04:58",
+  "started_at": "2026-10-27 10:58:12",
+  "finished_at": "2026-10-27 11:04:58",
+  "duration_seconds": 406.1,
+  "duration_text": "6m 46s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 7,
+  "data": [
+    {
+      "ticker": "GRPH.JK",
+      "price": 107.0,
+      "spike_ratio": 0.36,
+      "hist_age": "+1",
+      "macd_hist": 0.13,
+      "value": "8.19B",
+      "ema20": 104.81,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "ASII.JK",
+      "price": 4720.0,
+      "spike_ratio": 1.56,
+      "hist_age": "+1",
+      "macd_hist": 12.83,
+      "value": "88.53B",
+      "ema20": 4586.9,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
+    },
+    {
+      "ticker": "DSFI.JK",
+      "price": 80.0,
+      "spike_ratio": 1.7,
+      "hist_age": "+1",
+      "macd_hist": 0.34,
+      "value": "6.73B",
+      "ema20": 76.98,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "ERAL.JK",
+      "price": 314.0,
+      "spike_ratio": 4.32,
+      "hist_age": "+1",
+      "macd_hist": 0.25,
+      "value": "7.54B",
+      "ema20": 296.91,
+      "ema20_break_age": "+1",
+      "quality": "LOW"
+    },
+    {
+      "ticker": "ADRO.JK",
+      "price": 2490.0,
+      "spike_ratio": 0.7,
+      "hist_age": "+2",
+      "macd_hist": 7.68,
+      "value": "47.08B",
+      "ema20": 2467.07,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
+    },
+    {
+      "ticker": "GGRM.JK",
+      "price": 17250.0,
+      "spike_ratio": 2.01,
+      "hist_age": "+3",
+      "macd_hist": 98.37,
+      "value": "11.15B",
+      "ema20": 16939.93,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
+    },
+    {
+      "ticker": "ELSA.JK",
+      "price": 670.0,
+      "spike_ratio": 1.5,
+      "hist_age": "+4",
+      "macd_hist": 5.89,
+      "value": "13.08B",
+      "ema20": 647.96,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
+    }
+  ]
 }
