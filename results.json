@@ -1,13 +1,27 @@
 {
   "status": "success",
-  "generated_at": "2026-10-27 10:58:11",
-  "started_at": "2026-10-27 10:46:50",
-  "finished_at": "2026-10-27 10:58:11",
-  "duration_seconds": 681.3,
-  "duration_text": "11m 21s",
+  "generated_at": "2026-10-27 16:47:31",
+  "started_at": "2026-10-27 16:36:41",
+  "finished_at": "2026-10-27 16:47:31",
+  "duration_seconds": 650.2,
+  "duration_text": "10m 50s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 0,
-  "data": []
+  "candidates": 1,
+  "data": [
+    {
+      "ticker": "KBLM.JK",
+      "ob_range": "328-324",
+      "sl": 323,
+      "sl_pct": 1.2,
+      "tp": 362.0,
+      "tp_pct": 10.4,
+      "rr": 8.36,
+      "distance": 2.44,
+      "bos_age": 2,
+      "ob_size": 1.19,
+      "score": 93.13
+    }
+  ]
 }

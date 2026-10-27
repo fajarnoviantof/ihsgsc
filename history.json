@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 11:04:58",
+  "updated_at": "2026-10-27 16:54:03",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,120 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "16:00",
+      "generated_at": "2026-10-27 16:54:03",
+      "candidates": 7,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 31s",
+      "data": [
+        {
+          "ticker": "ASII.JK",
+          "price": 4630.0,
+          "spike_ratio": 0.68,
+          "hist_age": "+1",
+          "macd_hist": 7.08,
+          "value": "311.94B",
+          "ema20": 4578.32,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "DSFI.JK",
+          "price": 78.0,
+          "spike_ratio": 1.02,
+          "hist_age": "+1",
+          "macd_hist": 0.21,
+          "value": "8.83B",
+          "ema20": 76.79,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "DSNG.JK",
+          "price": 1470.0,
+          "spike_ratio": 2.03,
+          "hist_age": "+1",
+          "macd_hist": 2.62,
+          "value": "6.30B",
+          "ema20": 1441.41,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "ERAL.JK",
+          "price": 316.0,
+          "spike_ratio": 4.56,
+          "hist_age": "+1",
+          "macd_hist": 0.38,
+          "value": "12.72B",
+          "ema20": 297.1,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "OKAS.JK",
+          "price": 105.0,
+          "spike_ratio": 7.04,
+          "hist_age": "+1",
+          "macd_hist": 0.93,
+          "value": "6.73B",
+          "ema20": 95.93,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "GGRM.JK",
+          "price": 17150.0,
+          "spike_ratio": 1.75,
+          "hist_age": "+3",
+          "macd_hist": 91.99,
+          "value": "73.66B",
+          "ema20": 16930.41,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "ELSA.JK",
+          "price": 685.0,
+          "spike_ratio": 2.25,
+          "hist_age": "+4",
+          "macd_hist": 6.85,
+          "value": "43.06B",
+          "ema20": 649.39,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "16:00",
+      "generated_at": "2026-10-27 16:47:31",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "10m 50s",
+      "data": [
+        {
+          "ticker": "KBLM.JK",
+          "ob_range": "328-324",
+          "sl": 323,
+          "sl_pct": 1.2,
+          "tp": 362.0,
+          "tp_pct": 10.4,
+          "rr": 8.36,
+          "distance": 2.44,
+          "bos_age": 2,
+          "ob_size": 1.19,
+          "score": 93.13
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
