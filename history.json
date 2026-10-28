@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 07:47:26",
+  "updated_at": "2026-10-28 11:20:09",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,51 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-10-28 11:20:09",
+      "candidates": 2,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 14s",
+      "data": [
+        {
+          "ticker": "BIPP.JK",
+          "price": 67.0,
+          "spike_ratio": 3.51,
+          "hist_age": "+1",
+          "macd_hist": 0.22,
+          "value": "13.49B",
+          "ema20": 62.39,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "KOKA.JK",
+          "price": 133.0,
+          "spike_ratio": 3.64,
+          "hist_age": "+1",
+          "macd_hist": 1.51,
+          "value": "6.89B",
+          "ema20": 130.15,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-10-28 11:13:54",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 53s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "16:00",
