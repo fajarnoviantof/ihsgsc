@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 11:20:09",
+  "updated_at": "2026-10-28 17:52:32",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,62 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "17:00",
+      "generated_at": "2026-10-28 17:52:32",
+      "candidates": 3,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 29s",
+      "data": [
+        {
+          "ticker": "NISP.JK",
+          "price": 1200.0,
+          "spike_ratio": 2.04,
+          "hist_age": "+1",
+          "macd_hist": 1.52,
+          "value": "11.67B",
+          "ema20": 1194.73,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "KOKA.JK",
+          "price": 138.0,
+          "spike_ratio": 4.54,
+          "hist_age": "+1",
+          "macd_hist": 1.83,
+          "value": "18.63B",
+          "ema20": 130.63,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "PGEO.JK",
+          "price": 990.0,
+          "spike_ratio": 0.35,
+          "hist_age": "+5",
+          "macd_hist": 6.25,
+          "value": "8.66B",
+          "ema20": 986.3,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "17:00",
+      "generated_at": "2026-10-28 17:46:02",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 34s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
