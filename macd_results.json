@@ -1,25 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-10-29 11:43:33",
-  "started_at": "2026-10-29 11:37:32",
-  "finished_at": "2026-10-29 11:43:33",
-  "duration_seconds": 361.8,
-  "duration_text": "6m 1s",
+  "generated_at": "2026-10-30 11:42:44",
+  "started_at": "2026-10-30 11:37:02",
+  "finished_at": "2026-10-30 11:42:44",
+  "duration_seconds": 341.6,
+  "duration_text": "5m 41s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
-      "ticker": "TMAS.JK",
-      "price": 120.0,
-      "spike_ratio": 3.58,
-      "hist_age": "+1",
-      "macd_hist": 0.32,
-      "value": "9.70B",
-      "ema20": 118.93,
+      "ticker": "FIRE.JK",
+      "price": 101.0,
+      "spike_ratio": 4.28,
+      "hist_age": "+3",
+      "macd_hist": 1.32,
+      "value": "7.43B",
+      "ema20": 95.02,
       "ema20_break_age": "+1",
       "quality": "LOW"
+    },
+    {
+      "ticker": "MPMX.JK",
+      "price": 1015.0,
+      "spike_ratio": 0.55,
+      "hist_age": "+6",
+      "macd_hist": 0.69,
+      "value": "5.38B",
+      "ema20": 1013.43,
+      "ema20_break_age": "+1",
+      "quality": "MED"
     }
   ]
 }
