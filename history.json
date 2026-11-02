@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 18:13:52",
+  "updated_at": "2026-11-02 08:04:23",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -1889,96 +1889,6 @@
       "processed": 962,
       "errors": 41,
       "duration_text": "8m 48s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "11:00",
-      "generated_at": "2026-10-01 11:33:08",
-      "candidates": 1,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 28s",
-      "data": [
-        {
-          "ticker": "GEMS.JK",
-          "price": 7975.0,
-          "spike_ratio": 7.07,
-          "hist_age": "+1",
-          "macd_hist": 4.35,
-          "value": "7.17B",
-          "ema20": 7323.71,
-          "ema20_break_age": "+1",
-          "quality": "LOW"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "11:00",
-      "generated_at": "2026-10-01 11:26:39",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "11m 13s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "17:00",
-      "generated_at": "2026-09-30 17:44:43",
-      "candidates": 1,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "5m 45s",
-      "data": [
-        {
-          "ticker": "HRTA.JK",
-          "price": 2280.0,
-          "spike_ratio": 2.2,
-          "hist_age": "+1",
-          "macd_hist": 0.05,
-          "value": "27.33B",
-          "ema20": 2212.65,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "17:00",
-      "generated_at": "2026-09-30 17:38:57",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "9m 36s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "11:00",
-      "generated_at": "2026-09-30 11:18:46",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "5m 56s",
-      "data": []
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "11:00",
-      "generated_at": "2026-09-30 11:12:49",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "9m 23s",
       "data": []
     }
   ]
