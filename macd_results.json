@@ -1,58 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-11-02 11:47:10",
-  "started_at": "2026-11-02 11:41:07",
-  "finished_at": "2026-11-02 11:47:10",
-  "duration_seconds": 362.9,
-  "duration_text": "6m 2s",
+  "generated_at": "2026-11-03 10:26:36",
+  "started_at": "2026-11-03 10:19:15",
+  "finished_at": "2026-11-03 10:26:36",
+  "duration_seconds": 440.8,
+  "duration_text": "7m 20s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 4,
-  "data": [
-    {
-      "ticker": "PGAS.JK",
-      "price": 1385.0,
-      "spike_ratio": 1.52,
-      "hist_age": "+1",
-      "macd_hist": 6.27,
-      "value": "49.76B",
-      "ema20": 1339.07,
-      "ema20_break_age": "+1",
-      "quality": "HIGH"
-    },
-    {
-      "ticker": "SIMP.JK",
-      "price": 550.0,
-      "spike_ratio": 5.77,
-      "hist_age": "+1",
-      "macd_hist": 2.64,
-      "value": "8.24B",
-      "ema20": 534.51,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
-    },
-    {
-      "ticker": "ADMR.JK",
-      "price": 1345.0,
-      "spike_ratio": 2.33,
-      "hist_age": "+3",
-      "macd_hist": 10.31,
-      "value": "62.41B",
-      "ema20": 1326.48,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    },
-    {
-      "ticker": "ADRO.JK",
-      "price": 2470.0,
-      "spike_ratio": 1.42,
-      "hist_age": "+6",
-      "macd_hist": 7.79,
-      "value": "66.88B",
-      "ema20": 2450.18,
-      "ema20_break_age": "+1",
-      "quality": "MED"
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }

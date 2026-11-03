@@ -1,27 +1,27 @@
 {
   "status": "success",
-  "generated_at": "2026-11-02 11:41:07",
-  "started_at": "2026-11-02 11:31:25",
-  "finished_at": "2026-11-02 11:41:07",
-  "duration_seconds": 581.8,
-  "duration_text": "9m 41s",
+  "generated_at": "2026-11-03 10:19:15",
+  "started_at": "2026-11-03 10:06:31",
+  "finished_at": "2026-11-03 10:19:15",
+  "duration_seconds": 764.3,
+  "duration_text": "12m 44s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
   "candidates": 1,
   "data": [
     {
-      "ticker": "PNSE.JK",
-      "ob_range": "438-384",
-      "sl": 382,
-      "sl_pct": 12.6,
-      "tp": 795.0,
-      "tp_pct": 81.5,
-      "rr": 6.48,
-      "distance": 2.74,
-      "bos_age": 9,
-      "ob_size": 12.0,
-      "score": 63.68
+      "ticker": "SGER.JK",
+      "ob_range": "710-665",
+      "sl": 664,
+      "sl_pct": 6.5,
+      "tp": 870.0,
+      "tp_pct": 22.5,
+      "rr": 3.49,
+      "distance": 4.93,
+      "bos_age": 8,
+      "ob_size": 6.04,
+      "score": 74.57
     }
   ]
 }
