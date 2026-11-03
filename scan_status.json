@@ -1,10 +1,10 @@
 {
   "status": "success",
   "trigger": "schedule",
-  "current_slot": "10:00",
-  "finished_at": "2026-11-03 10:26:36",
+  "current_slot": null,
+  "finished_at": "2026-11-03 12:25:19",
   "ob": {
-    "status": "success",
+    "status": "skipped",
     "generated_at": "2026-11-03 10:19:15",
     "processed": 962,
     "total_tickers": 962,
@@ -13,7 +13,7 @@
     "duration_text": "12m 44s"
   },
   "macd": {
-    "status": "success",
+    "status": "skipped",
     "generated_at": "2026-11-03 10:26:36",
     "processed": 962,
     "total_tickers": 962,
