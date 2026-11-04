@@ -1,13 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-11-03 10:26:36",
-  "started_at": "2026-11-03 10:19:15",
-  "finished_at": "2026-11-03 10:26:36",
-  "duration_seconds": 440.8,
-  "duration_text": "7m 20s",
+  "generated_at": "2026-11-04 12:10:21",
+  "started_at": "2026-11-04 12:04:11",
+  "finished_at": "2026-11-04 12:10:21",
+  "duration_seconds": 369.3,
+  "duration_text": "6m 9s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 2,
+  "data": [
+    {
+      "ticker": "INDF.JK",
+      "price": 6675.0,
+      "spike_ratio": 1.8,
+      "hist_age": "+1",
+      "macd_hist": 6.58,
+      "value": "19.47B",
+      "ema20": 6644.39,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "PGAS.JK",
+      "price": 1345.0,
+      "spike_ratio": 0.33,
+      "hist_age": "+3",
+      "macd_hist": 9.43,
+      "value": "27.50B",
+      "ema20": 1337.68,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
+    }
+  ]
 }
