@@ -1,27 +1,13 @@
 {
   "status": "success",
-  "generated_at": "2026-11-04 12:04:11",
-  "started_at": "2026-11-04 11:54:12",
-  "finished_at": "2026-11-04 12:04:11",
-  "duration_seconds": 598.3,
-  "duration_text": "9m 58s",
+  "generated_at": "2026-11-09 11:53:25",
+  "started_at": "2026-11-09 11:43:52",
+  "finished_at": "2026-11-09 11:53:25",
+  "duration_seconds": 573.0,
+  "duration_text": "9m 33s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 41,
-  "candidates": 1,
-  "data": [
-    {
-      "ticker": "PTSN.JK",
-      "ob_range": "288-266",
-      "sl": 265,
-      "sl_pct": 7.8,
-      "tp": 448.0,
-      "tp_pct": 55.6,
-      "rr": 7.13,
-      "distance": 3.47,
-      "bos_age": 7,
-      "ob_size": 7.38,
-      "score": 74.36
-    }
-  ]
+  "candidates": 0,
+  "data": []
 }
