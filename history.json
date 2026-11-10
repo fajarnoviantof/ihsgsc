@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 20:24:48",
+  "updated_at": "2026-11-10 11:06:59",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,98 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-11-10 11:06:59",
+      "candidates": 5,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 8s",
+      "data": [
+        {
+          "ticker": "ARCI.JK",
+          "price": 1025.0,
+          "spike_ratio": 1.5,
+          "hist_age": "+2",
+          "macd_hist": 13.64,
+          "value": "30.40B",
+          "ema20": 1002.33,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "INCO.JK",
+          "price": 3700.0,
+          "spike_ratio": 1.69,
+          "hist_age": "+2",
+          "macd_hist": 44.8,
+          "value": "23.07B",
+          "ema20": 3608.03,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "KBLV.JK",
+          "price": 91.0,
+          "spike_ratio": 2.32,
+          "hist_age": "+2",
+          "macd_hist": 1.69,
+          "value": "7.46B",
+          "ema20": 83.33,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "ANTM.JK",
+          "price": 2790.0,
+          "spike_ratio": 0.8,
+          "hist_age": "+3",
+          "macd_hist": 21.13,
+          "value": "105.27B",
+          "ema20": 2758.74,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "SMGR.JK",
+          "price": 1490.0,
+          "spike_ratio": 1.55,
+          "hist_age": "+3",
+          "macd_hist": 11.87,
+          "value": "14.03B",
+          "ema20": 1429.41,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-11-10 11:00:51",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 38s",
+      "data": [
+        {
+          "ticker": "MAYA.JK",
+          "ob_range": "160-158",
+          "sl": 157,
+          "sl_pct": 1.3,
+          "tp": 174.0,
+          "tp_pct": 8.8,
+          "rr": 6.89,
+          "distance": 1.25,
+          "bos_age": 1,
+          "ob_size": 1.23,
+          "score": 95.25
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
