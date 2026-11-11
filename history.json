@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 08:30:33",
+  "updated_at": "2026-11-11 12:03:51",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,17 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-11-11 11:57:45",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 0s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
