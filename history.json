@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 09:52:26",
+  "updated_at": "2026-11-12 12:49:10",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -1888,87 +1888,6 @@
       "errors": 41,
       "duration_text": "11m 56s",
       "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "11:00",
-      "generated_at": "2026-10-12 11:41:05",
-      "candidates": 4,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 12s",
-      "data": [
-        {
-          "ticker": "CPIN.JK",
-          "price": 3020.0,
-          "spike_ratio": 2.2,
-          "hist_age": "+1",
-          "macd_hist": 1.86,
-          "value": "16.97B",
-          "ema20": 3002.6,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "INTP.JK",
-          "price": 5250.0,
-          "spike_ratio": 2.46,
-          "hist_age": "+1",
-          "macd_hist": 16.43,
-          "value": "6.92B",
-          "ema20": 5089.16,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "KBLV.JK",
-          "price": 122.0,
-          "spike_ratio": 7.19,
-          "hist_age": "+1",
-          "macd_hist": 1.28,
-          "value": "12.17B",
-          "ema20": 112.06,
-          "ema20_break_age": "+1",
-          "quality": "LOW"
-        },
-        {
-          "ticker": "MLPT.JK",
-          "price": 1140.0,
-          "spike_ratio": 7.98,
-          "hist_age": "+1",
-          "macd_hist": 12.21,
-          "value": "12.04B",
-          "ema20": 1036.3,
-          "ema20_break_age": "+1",
-          "quality": "LOW"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "11:00",
-      "generated_at": "2026-10-12 11:34:53",
-      "candidates": 1,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "9m 49s",
-      "data": [
-        {
-          "ticker": "MOLI.JK",
-          "ob_range": "376-350",
-          "sl": 349,
-          "sl_pct": 7.0,
-          "tp": 442.0,
-          "tp_pct": 17.6,
-          "rr": 2.49,
-          "distance": 3.19,
-          "bos_age": 8,
-          "ob_size": 6.7,
-          "score": 75.06
-        }
-      ]
     }
   ]
 }
