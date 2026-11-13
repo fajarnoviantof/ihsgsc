@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 21:39:09",
+  "updated_at": "2026-11-13 09:26:25",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "09:00",
+      "generated_at": "2026-11-13 09:26:25",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "5m 39s",
+      "data": [
+        {
+          "ticker": "VKTR.JK",
+          "price": 360.0,
+          "spike_ratio": 1.7,
+          "hist_age": "+5",
+          "macd_hist": 20.8,
+          "value": "151.78B",
+          "ema20": 336.31,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "09:00",
+      "generated_at": "2026-11-13 09:20:45",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 9s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "09:00",
