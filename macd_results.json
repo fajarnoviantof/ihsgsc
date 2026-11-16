@@ -1,25 +1,36 @@
 {
   "status": "success",
-  "generated_at": "2026-11-13 09:26:25",
-  "started_at": "2026-11-13 09:20:45",
-  "finished_at": "2026-11-13 09:26:25",
-  "duration_seconds": 339.9,
-  "duration_text": "5m 39s",
+  "generated_at": "2026-11-16 12:09:11",
+  "started_at": "2026-11-16 12:01:57",
+  "finished_at": "2026-11-16 12:09:11",
+  "duration_seconds": 433.4,
+  "duration_text": "7m 13s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 1,
+  "candidates": 2,
   "data": [
     {
-      "ticker": "VKTR.JK",
-      "price": 360.0,
-      "spike_ratio": 1.7,
-      "hist_age": "+5",
-      "macd_hist": 20.8,
-      "value": "151.78B",
-      "ema20": 336.31,
+      "ticker": "CLEO.JK",
+      "price": 382.0,
+      "spike_ratio": 1.33,
+      "hist_age": "+2",
+      "macd_hist": 1.35,
+      "value": "5.42B",
+      "ema20": 380.31,
       "ema20_break_age": "+1",
-      "quality": "HIGH"
+      "quality": "MED"
+    },
+    {
+      "ticker": "ICON.JK",
+      "price": 87.0,
+      "spike_ratio": 3.98,
+      "hist_age": "+4",
+      "macd_hist": 2.65,
+      "value": "5.28B",
+      "ema20": 82.38,
+      "ema20_break_age": "+1",
+      "quality": "MED"
     }
   ]
 }
