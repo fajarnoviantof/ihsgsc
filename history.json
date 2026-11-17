@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 20:21:21",
+  "updated_at": "2026-11-17 11:29:26",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,54 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "11:00",
+      "generated_at": "2026-11-17 11:29:26",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 13s",
+      "data": [
+        {
+          "ticker": "DEFI.JK",
+          "price": 86.0,
+          "spike_ratio": 4.29,
+          "hist_age": "+5",
+          "macd_hist": 2.23,
+          "value": "6.50B",
+          "ema20": 74.86,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "11:00",
+      "generated_at": "2026-11-17 11:23:12",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 56s",
+      "data": [
+        {
+          "ticker": "IFII.JK",
+          "ob_range": "195-191",
+          "sl": 190,
+          "sl_pct": 2.1,
+          "tp": 206.0,
+          "tp_pct": 5.6,
+          "rr": 2.7,
+          "distance": 0.51,
+          "bos_age": 6,
+          "ob_size": 2.04,
+          "score": 81.28
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "09:00",
