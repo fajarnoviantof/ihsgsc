@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 23:29:30",
+  "updated_at": "2026-11-18 10:28:51",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,73 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-11-18 10:28:51",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 24s",
+      "data": [
+        {
+          "ticker": "ITMG.JK",
+          "price": 24750.0,
+          "spike_ratio": 1.12,
+          "hist_age": "+2",
+          "macd_hist": 35.31,
+          "value": "6.93B",
+          "ema20": 24564.97,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "SOLA.JK",
+          "price": 76.0,
+          "spike_ratio": 5.95,
+          "hist_age": "+5",
+          "macd_hist": 1.84,
+          "value": "5.44B",
+          "ema20": 63.59,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "NZIA.JK",
+          "price": 113.0,
+          "spike_ratio": 8.88,
+          "hist_age": "+5",
+          "macd_hist": 3.98,
+          "value": "5.86B",
+          "ema20": 96.95,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        },
+        {
+          "ticker": "PPRI.JK",
+          "price": 113.0,
+          "spike_ratio": 4.36,
+          "hist_age": "+6",
+          "macd_hist": 4.71,
+          "value": "8.21B",
+          "ema20": 98.03,
+          "ema20_break_age": "+1",
+          "quality": "LOW"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-11-18 10:22:27",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "11m 53s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "13:00",
