@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 22:22:10",
+  "updated_at": "2026-11-19 10:07:33",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,40 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-11-19 10:07:33",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 10s",
+      "data": [
+        {
+          "ticker": "GULA.JK",
+          "price": 745.0,
+          "spike_ratio": 1.04,
+          "hist_age": "+5",
+          "macd_hist": 4.87,
+          "value": "7.49B",
+          "ema20": 732.96,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "10:00",
+      "generated_at": "2026-11-19 10:01:22",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 41,
+      "duration_text": "9m 52s",
+      "data": []
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",

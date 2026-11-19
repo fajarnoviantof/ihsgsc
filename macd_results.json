@@ -1,58 +1,25 @@
 {
   "status": "success",
-  "generated_at": "2026-11-18 10:28:51",
-  "started_at": "2026-11-18 10:22:27",
-  "finished_at": "2026-11-18 10:28:51",
-  "duration_seconds": 384.0,
-  "duration_text": "6m 24s",
+  "generated_at": "2026-11-19 10:07:33",
+  "started_at": "2026-11-19 10:01:23",
+  "finished_at": "2026-11-19 10:07:33",
+  "duration_seconds": 370.3,
+  "duration_text": "6m 10s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 4,
+  "candidates": 1,
   "data": [
     {
-      "ticker": "ITMG.JK",
-      "price": 24750.0,
-      "spike_ratio": 1.12,
-      "hist_age": "+2",
-      "macd_hist": 35.31,
-      "value": "6.93B",
-      "ema20": 24564.97,
+      "ticker": "GULA.JK",
+      "price": 745.0,
+      "spike_ratio": 1.04,
+      "hist_age": "+5",
+      "macd_hist": 4.87,
+      "value": "7.49B",
+      "ema20": 732.96,
       "ema20_break_age": "+1",
       "quality": "HIGH"
-    },
-    {
-      "ticker": "SOLA.JK",
-      "price": 76.0,
-      "spike_ratio": 5.95,
-      "hist_age": "+5",
-      "macd_hist": 1.84,
-      "value": "5.44B",
-      "ema20": 63.59,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
-    },
-    {
-      "ticker": "NZIA.JK",
-      "price": 113.0,
-      "spike_ratio": 8.88,
-      "hist_age": "+5",
-      "macd_hist": 3.98,
-      "value": "5.86B",
-      "ema20": 96.95,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
-    },
-    {
-      "ticker": "PPRI.JK",
-      "price": 113.0,
-      "spike_ratio": 4.36,
-      "hist_age": "+6",
-      "macd_hist": 4.71,
-      "value": "8.21B",
-      "ema20": 98.03,
-      "ema20_break_age": "+1",
-      "quality": "LOW"
     }
   ]
 }
