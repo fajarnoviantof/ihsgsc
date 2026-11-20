@@ -1,13 +1,27 @@
 {
   "status": "success",
-  "generated_at": "2026-11-19 10:01:22",
-  "started_at": "2026-11-19 09:51:30",
-  "finished_at": "2026-11-19 10:01:22",
-  "duration_seconds": 592.0,
-  "duration_text": "9m 52s",
+  "generated_at": "2026-11-20 09:53:18",
+  "started_at": "2026-11-20 09:41:32",
+  "finished_at": "2026-11-20 09:53:18",
+  "duration_seconds": 705.8,
+  "duration_text": "11m 45s",
   "total_tickers": 962,
   "processed": 962,
-  "errors": 41,
-  "candidates": 0,
-  "data": []
+  "errors": 43,
+  "candidates": 1,
+  "data": [
+    {
+      "ticker": "MERI.JK",
+      "ob_range": "87-85",
+      "sl": 84,
+      "sl_pct": 2.3,
+      "tp": 92.0,
+      "tp_pct": 5.8,
+      "rr": 2.46,
+      "distance": 1.15,
+      "bos_age": 2,
+      "ob_size": 2.27,
+      "score": 84.49
+    }
+  ]
 }

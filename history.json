@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 22:30:06",
+  "updated_at": "2026-11-20 10:00:49",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,42 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "10:00",
+      "generated_at": "2026-11-20 10:00:49",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "7m 30s",
+      "data": []
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "09:00",
+      "generated_at": "2026-11-20 09:53:18",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 43,
+      "duration_text": "11m 45s",
+      "data": [
+        {
+          "ticker": "MERI.JK",
+          "ob_range": "87-85",
+          "sl": 84,
+          "sl_pct": 2.3,
+          "tp": 92.0,
+          "tp_pct": 5.8,
+          "rr": 2.46,
+          "distance": 1.15,
+          "bos_age": 2,
+          "ob_size": 2.27,
+          "score": 84.49
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",
