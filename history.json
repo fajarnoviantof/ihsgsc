@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 09:20:30",
+  "updated_at": "2026-11-23 12:50:48",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -1338,73 +1338,6 @@
           "score": 85.95
         }
       ]
-    },
-    {
-      "scanner": "MACD",
-      "slot": "10:00",
-      "generated_at": "2026-10-23 10:42:25",
-      "candidates": 4,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 0s",
-      "data": [
-        {
-          "ticker": "TMPO.JK",
-          "price": 160.0,
-          "spike_ratio": 0.33,
-          "hist_age": "+1",
-          "macd_hist": 0.21,
-          "value": "8.08B",
-          "ema20": 157.68,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "GGRM.JK",
-          "price": 17000.0,
-          "spike_ratio": 0.64,
-          "hist_age": "+1",
-          "macd_hist": 37.71,
-          "value": "5.94B",
-          "ema20": 16960.19,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "JSMR.JK",
-          "price": 2630.0,
-          "spike_ratio": 2.37,
-          "hist_age": "+1",
-          "macd_hist": 11.46,
-          "value": "13.78B",
-          "ema20": 2501.07,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "TOBA.JK",
-          "price": 505.0,
-          "spike_ratio": 4.83,
-          "hist_age": "+1",
-          "macd_hist": 4.55,
-          "value": "57.20B",
-          "ema20": 431.07,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "10:00",
-      "generated_at": "2026-10-23 10:36:24",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "9m 30s",
-      "data": []
     }
   ]
 }
