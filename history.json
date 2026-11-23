@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 21:54:33",
+  "updated_at": "2026-11-23 09:20:30",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,55 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "09:00",
+      "generated_at": "2026-11-23 09:20:30",
+      "candidates": 0,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 37s",
+      "data": []
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "09:00",
+      "generated_at": "2026-11-23 09:13:53",
+      "candidates": 2,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 43,
+      "duration_text": "11m 56s",
+      "data": [
+        {
+          "ticker": "SMRA.JK",
+          "ob_range": "264-260",
+          "sl": 259,
+          "sl_pct": 1.6,
+          "tp": 286.0,
+          "tp_pct": 8.3,
+          "rr": 5.37,
+          "distance": 3.03,
+          "bos_age": 6,
+          "ob_size": 1.47,
+          "score": 87.94
+        },
+        {
+          "ticker": "MERI.JK",
+          "ob_range": "87-85",
+          "sl": 84,
+          "sl_pct": 2.3,
+          "tp": 92.0,
+          "tp_pct": 5.8,
+          "rr": 2.46,
+          "distance": 1.15,
+          "bos_age": 2,
+          "ob_size": 2.27,
+          "score": 84.49
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "10:00",
@@ -1355,175 +1404,6 @@
       "processed": 962,
       "errors": 41,
       "duration_text": "9m 30s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "16:00",
-      "generated_at": "2026-10-22 16:07:49",
-      "candidates": 1,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 43s",
-      "data": [
-        {
-          "ticker": "ELSA.JK",
-          "price": 660.0,
-          "spike_ratio": 1.61,
-          "hist_age": "+1",
-          "macd_hist": 2.06,
-          "value": "18.10B",
-          "ema20": 644.26,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "16:00",
-      "generated_at": "2026-10-22 16:01:05",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "10m 55s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "10:00",
-      "generated_at": "2026-10-22 10:40:29",
-      "candidates": 1,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 40s",
-      "data": [
-        {
-          "ticker": "ELSA.JK",
-          "price": 655.0,
-          "spike_ratio": 1.34,
-          "hist_age": "+1",
-          "macd_hist": 1.74,
-          "value": "6.97B",
-          "ema20": 643.79,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "10:00",
-      "generated_at": "2026-10-22 10:33:48",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "11m 41s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "16:00",
-      "generated_at": "2026-10-21 16:06:01",
-      "candidates": 4,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 52s",
-      "data": [
-        {
-          "ticker": "BTPS.JK",
-          "price": 980.0,
-          "spike_ratio": 0.97,
-          "hist_age": "+1",
-          "macd_hist": 0.67,
-          "value": "8.90B",
-          "ema20": 964.3,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "DMAS.JK",
-          "price": 208.0,
-          "spike_ratio": 5.85,
-          "hist_age": "+1",
-          "macd_hist": 0.3,
-          "value": "200.77B",
-          "ema20": 183.49,
-          "ema20_break_age": "+1",
-          "quality": "LOW"
-        },
-        {
-          "ticker": "BAPA.JK",
-          "price": 113.0,
-          "spike_ratio": 4.22,
-          "hist_age": "+2",
-          "macd_hist": 1.65,
-          "value": "8.62B",
-          "ema20": 104.98,
-          "ema20_break_age": "+1",
-          "quality": "MED"
-        },
-        {
-          "ticker": "ACES.JK",
-          "price": 344.0,
-          "spike_ratio": 1.29,
-          "hist_age": "+6",
-          "macd_hist": 1.87,
-          "value": "11.10B",
-          "ema20": 335.73,
-          "ema20_break_age": "+1",
-          "quality": "HIGH"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "15:00",
-      "generated_at": "2026-10-21 15:59:08",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "11m 40s",
-      "data": []
-    },
-    {
-      "scanner": "MACD",
-      "slot": "10:00",
-      "generated_at": "2026-10-21 10:39:04",
-      "candidates": 1,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 0,
-      "duration_text": "6m 9s",
-      "data": [
-        {
-          "ticker": "DMAS.JK",
-          "price": 206.0,
-          "spike_ratio": 5.46,
-          "hist_age": "+1",
-          "macd_hist": 0.17,
-          "value": "139.50B",
-          "ema20": 183.3,
-          "ema20_break_age": "+1",
-          "quality": "LOW"
-        }
-      ]
-    },
-    {
-      "scanner": "SMC OB",
-      "slot": "10:00",
-      "generated_at": "2026-10-21 10:32:54",
-      "candidates": 0,
-      "total_tickers": 962,
-      "processed": 962,
-      "errors": 41,
-      "duration_text": "10m 1s",
       "data": []
     }
   ]
