@@ -1,40 +1,27 @@
 {
   "status": "success",
-  "generated_at": "2026-11-23 09:13:53",
-  "started_at": "2026-11-23 09:01:57",
-  "finished_at": "2026-11-23 09:13:53",
-  "duration_seconds": 716.0,
-  "duration_text": "11m 56s",
+  "generated_at": "2026-11-24 15:37:45",
+  "started_at": "2026-11-24 15:28:37",
+  "finished_at": "2026-11-24 15:37:45",
+  "duration_seconds": 548.6,
+  "duration_text": "9m 8s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 43,
-  "candidates": 2,
+  "candidates": 1,
   "data": [
     {
-      "ticker": "SMRA.JK",
-      "ob_range": "264-260",
-      "sl": 259,
-      "sl_pct": 1.6,
-      "tp": 286.0,
-      "tp_pct": 8.3,
-      "rr": 5.37,
-      "distance": 3.03,
-      "bos_age": 6,
-      "ob_size": 1.47,
-      "score": 87.94
-    },
-    {
-      "ticker": "MERI.JK",
-      "ob_range": "87-85",
-      "sl": 84,
-      "sl_pct": 2.3,
-      "tp": 92.0,
-      "tp_pct": 5.8,
-      "rr": 2.46,
-      "distance": 1.15,
-      "bos_age": 2,
-      "ob_size": 2.27,
-      "score": 84.49
+      "ticker": "SMGR.JK",
+      "ob_range": "1500-1470",
+      "sl": 1469,
+      "sl_pct": 2.0,
+      "tp": 1680.0,
+      "tp_pct": 12.0,
+      "rr": 5.88,
+      "distance": 4.67,
+      "bos_age": 7,
+      "ob_size": 1.91,
+      "score": 84.38
     }
   ]
 }
