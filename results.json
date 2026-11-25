@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-11-25 11:51:16",
-  "started_at": "2026-11-25 11:38:31",
-  "finished_at": "2026-11-25 11:51:16",
-  "duration_seconds": 765.7,
-  "duration_text": "12m 45s",
+  "generated_at": "2026-11-25 14:14:58",
+  "started_at": "2026-11-25 14:03:24",
+  "finished_at": "2026-11-25 14:14:58",
+  "duration_seconds": 693.3,
+  "duration_text": "11m 33s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 43,
@@ -18,10 +18,10 @@
       "tp": 1680.0,
       "tp_pct": 12.0,
       "rr": 5.88,
-      "distance": 3.67,
+      "distance": 3.33,
       "bos_age": 8,
-      "ob_size": 1.93,
-      "score": 84.36
+      "ob_size": 1.94,
+      "score": 84.69
     },
     {
       "ticker": "BBNI.JK",
@@ -31,10 +31,10 @@
       "tp": 3710.0,
       "tp_pct": 7.8,
       "rr": 3.77,
-      "distance": 4.07,
+      "distance": 4.36,
       "bos_age": 8,
-      "ob_size": 1.96,
-      "score": 82.44
+      "ob_size": 1.95,
+      "score": 82.16
     }
   ]
 }
