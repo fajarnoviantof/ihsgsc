@@ -1,28 +1,15 @@
 {
   "status": "success",
-  "generated_at": "2026-11-26 10:59:34",
-  "started_at": "2026-11-26 10:49:09",
-  "finished_at": "2026-11-26 10:59:34",
-  "duration_seconds": 624.6,
-  "duration_text": "10m 24s",
+  "generated_at": "2026-11-26 14:05:12",
+  "started_at": "2026-11-26 13:55:11",
+  "finished_at": "2026-11-26 14:05:12",
+  "duration_seconds": 600.5,
+  "duration_text": "10m 0s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 43,
-  "candidates": 5,
+  "candidates": 4,
   "data": [
-    {
-      "ticker": "JSPT.JK",
-      "ob_range": "1265-1245",
-      "sl": 1244,
-      "sl_pct": 1.6,
-      "tp": 1405.0,
-      "tp_pct": 11.1,
-      "rr": 6.88,
-      "distance": 0.4,
-      "bos_age": 1,
-      "ob_size": 1.57,
-      "score": 95.42
-    },
     {
       "ticker": "DART.JK",
       "ob_range": "119-115",
@@ -31,10 +18,10 @@
       "tp": 132.0,
       "tp_pct": 10.9,
       "rr": 3.18,
-      "distance": 2.52,
+      "distance": 1.68,
       "bos_age": 1,
-      "ob_size": 3.28,
-      "score": 89.77
+      "ob_size": 3.31,
+      "score": 90.58
     },
     {
       "ticker": "SMGR.JK",
@@ -44,23 +31,10 @@
       "tp": 1680.0,
       "tp_pct": 12.0,
       "rr": 5.88,
-      "distance": 3.67,
+      "distance": 4.33,
       "bos_age": 9,
-      "ob_size": 1.93,
-      "score": 83.36
-    },
-    {
-      "ticker": "BBNI.JK",
-      "ob_range": "3440-3370",
-      "sl": 3368,
-      "sl_pct": 2.1,
-      "tp": 3710.0,
-      "tp_pct": 7.8,
-      "rr": 3.77,
-      "distance": 4.36,
-      "bos_age": 9,
-      "ob_size": 1.95,
-      "score": 81.16
+      "ob_size": 1.92,
+      "score": 82.71
     },
     {
       "ticker": "SMRA.JK",
@@ -70,10 +44,23 @@
       "tp": 286.0,
       "tp_pct": 4.4,
       "rr": 2.94,
-      "distance": 2.92,
+      "distance": 2.19,
       "bos_age": 2,
-      "ob_size": 1.42,
-      "score": 80.31
+      "ob_size": 1.43,
+      "score": 81.03
+    },
+    {
+      "ticker": "BBNI.JK",
+      "ob_range": "3440-3370",
+      "sl": 3368,
+      "sl_pct": 2.1,
+      "tp": 3710.0,
+      "tp_pct": 7.8,
+      "rr": 3.77,
+      "distance": 4.65,
+      "bos_age": 9,
+      "ob_size": 1.94,
+      "score": 80.88
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 11:05:55",
+  "updated_at": "2026-11-26 14:11:24",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,115 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "14:00",
+      "generated_at": "2026-11-26 14:11:24",
+      "candidates": 3,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 11s",
+      "data": [
+        {
+          "ticker": "AADI.JK",
+          "price": 10375.0,
+          "spike_ratio": 2.26,
+          "hist_age": "+1",
+          "macd_hist": 16.82,
+          "value": "313.48B",
+          "ema20": 10306.37,
+          "ema20_break_age": "+1",
+          "quality": "MED"
+        },
+        {
+          "ticker": "ADRO.JK",
+          "price": 2420.0,
+          "spike_ratio": 2.52,
+          "hist_age": "+1",
+          "macd_hist": 5.61,
+          "value": "58.85B",
+          "ema20": 2376.79,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        },
+        {
+          "ticker": "MARK.JK",
+          "price": 980.0,
+          "spike_ratio": 2.07,
+          "hist_age": "+2",
+          "macd_hist": 4.88,
+          "value": "8.25B",
+          "ema20": 974.15,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "14:00",
+      "generated_at": "2026-11-26 14:05:12",
+      "candidates": 4,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 43,
+      "duration_text": "10m 0s",
+      "data": [
+        {
+          "ticker": "DART.JK",
+          "ob_range": "119-115",
+          "sl": 114,
+          "sl_pct": 3.4,
+          "tp": 132.0,
+          "tp_pct": 10.9,
+          "rr": 3.18,
+          "distance": 1.68,
+          "bos_age": 1,
+          "ob_size": 3.31,
+          "score": 90.58
+        },
+        {
+          "ticker": "SMGR.JK",
+          "ob_range": "1500-1470",
+          "sl": 1469,
+          "sl_pct": 2.0,
+          "tp": 1680.0,
+          "tp_pct": 12.0,
+          "rr": 5.88,
+          "distance": 4.33,
+          "bos_age": 9,
+          "ob_size": 1.92,
+          "score": 82.71
+        },
+        {
+          "ticker": "SMRA.JK",
+          "ob_range": "274-270",
+          "sl": 269,
+          "sl_pct": 1.5,
+          "tp": 286.0,
+          "tp_pct": 4.4,
+          "rr": 2.94,
+          "distance": 2.19,
+          "bos_age": 2,
+          "ob_size": 1.43,
+          "score": 81.03
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ob_range": "3440-3370",
+          "sl": 3368,
+          "sl_pct": 2.1,
+          "tp": 3710.0,
+          "tp_pct": 7.8,
+          "rr": 3.77,
+          "distance": 4.65,
+          "bos_age": 9,
+          "ob_size": 1.94,
+          "score": 80.88
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
