@@ -1,13 +1,47 @@
 {
   "status": "success",
-  "generated_at": "2026-11-25 14:21:44",
-  "started_at": "2026-11-25 14:14:58",
-  "finished_at": "2026-11-25 14:21:44",
-  "duration_seconds": 405.7,
-  "duration_text": "6m 45s",
+  "generated_at": "2026-11-26 11:05:54",
+  "started_at": "2026-11-26 10:59:34",
+  "finished_at": "2026-11-26 11:05:54",
+  "duration_seconds": 380.3,
+  "duration_text": "6m 20s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
-  "candidates": 0,
-  "data": []
+  "candidates": 3,
+  "data": [
+    {
+      "ticker": "ADRO.JK",
+      "price": 2410.0,
+      "spike_ratio": 2.24,
+      "hist_age": "+1",
+      "macd_hist": 4.97,
+      "value": "45.85B",
+      "ema20": 2375.84,
+      "ema20_break_age": "+1",
+      "quality": "HIGH"
+    },
+    {
+      "ticker": "AADI.JK",
+      "price": 10450.0,
+      "spike_ratio": 2.62,
+      "hist_age": "+1",
+      "macd_hist": 21.61,
+      "value": "238.87B",
+      "ema20": 10313.51,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    },
+    {
+      "ticker": "MEDC.JK",
+      "price": 1230.0,
+      "spike_ratio": 1.68,
+      "hist_age": "+3",
+      "macd_hist": 8.49,
+      "value": "32.95B",
+      "ema20": 1225.48,
+      "ema20_break_age": "+1",
+      "quality": "MED"
+    }
+  ]
 }
