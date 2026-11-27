@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-11-27 11:00:06",
-  "started_at": "2026-11-27 10:50:08",
-  "finished_at": "2026-11-27 11:00:06",
-  "duration_seconds": 598.8,
-  "duration_text": "9m 58s",
+  "generated_at": "2026-11-27 13:59:31",
+  "started_at": "2026-11-27 13:48:27",
+  "finished_at": "2026-11-27 13:59:31",
+  "duration_seconds": 664.5,
+  "duration_text": "11m 4s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 43,
@@ -18,10 +18,10 @@
       "tp": 1680.0,
       "tp_pct": 12.0,
       "rr": 5.88,
-      "distance": 4.33,
+      "distance": 4.0,
       "bos_age": 10,
       "ob_size": 1.92,
-      "score": 81.71
+      "score": 82.04
     },
     {
       "ticker": "BBNI.JK",
@@ -31,10 +31,10 @@
       "tp": 3710.0,
       "tp_pct": 7.8,
       "rr": 3.77,
-      "distance": 4.36,
+      "distance": 4.65,
       "bos_age": 10,
-      "ob_size": 1.95,
-      "score": 80.16
+      "ob_size": 1.94,
+      "score": 79.88
     },
     {
       "ticker": "SMRA.JK",
@@ -44,10 +44,10 @@
       "tp": 286.0,
       "tp_pct": 4.4,
       "rr": 2.94,
-      "distance": 3.65,
+      "distance": 2.92,
       "bos_age": 3,
-      "ob_size": 1.41,
-      "score": 78.59
+      "ob_size": 1.42,
+      "score": 79.31
     }
   ]
 }

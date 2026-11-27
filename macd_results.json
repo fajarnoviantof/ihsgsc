@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "generated_at": "2026-11-27 11:06:20",
-  "started_at": "2026-11-27 11:00:07",
-  "finished_at": "2026-11-27 11:06:20",
-  "duration_seconds": 373.4,
-  "duration_text": "6m 13s",
+  "generated_at": "2026-11-27 14:06:14",
+  "started_at": "2026-11-27 13:59:32",
+  "finished_at": "2026-11-27 14:06:14",
+  "duration_seconds": 402.3,
+  "duration_text": "6m 42s",
   "total_tickers": 962,
   "processed": 962,
   "errors": 0,
@@ -12,12 +12,12 @@
   "data": [
     {
       "ticker": "MEDC.JK",
-      "price": 1235.0,
-      "spike_ratio": 0.37,
+      "price": 1230.0,
+      "spike_ratio": 0.19,
       "hist_age": "+4",
-      "macd_hist": 11.84,
-      "value": "12.24B",
-      "ema20": 1225.96,
+      "macd_hist": 11.52,
+      "value": "14.11B",
+      "ema20": 1225.48,
       "ema20_break_age": "+1",
       "quality": "HIGH"
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 11:06:20",
+  "updated_at": "2026-11-27 14:06:14",
   "keep_days": 31,
   "slots": [
     "09:00",
@@ -12,6 +12,80 @@
     "17:00"
   ],
   "history": [
+    {
+      "scanner": "MACD",
+      "slot": "14:00",
+      "generated_at": "2026-11-27 14:06:14",
+      "candidates": 1,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 0,
+      "duration_text": "6m 42s",
+      "data": [
+        {
+          "ticker": "MEDC.JK",
+          "price": 1230.0,
+          "spike_ratio": 0.19,
+          "hist_age": "+4",
+          "macd_hist": 11.52,
+          "value": "14.11B",
+          "ema20": 1225.48,
+          "ema20_break_age": "+1",
+          "quality": "HIGH"
+        }
+      ]
+    },
+    {
+      "scanner": "SMC OB",
+      "slot": "13:00",
+      "generated_at": "2026-11-27 13:59:31",
+      "candidates": 3,
+      "total_tickers": 962,
+      "processed": 962,
+      "errors": 43,
+      "duration_text": "11m 4s",
+      "data": [
+        {
+          "ticker": "SMGR.JK",
+          "ob_range": "1500-1470",
+          "sl": 1469,
+          "sl_pct": 2.0,
+          "tp": 1680.0,
+          "tp_pct": 12.0,
+          "rr": 5.88,
+          "distance": 4.0,
+          "bos_age": 10,
+          "ob_size": 1.92,
+          "score": 82.04
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ob_range": "3440-3370",
+          "sl": 3368,
+          "sl_pct": 2.1,
+          "tp": 3710.0,
+          "tp_pct": 7.8,
+          "rr": 3.77,
+          "distance": 4.65,
+          "bos_age": 10,
+          "ob_size": 1.94,
+          "score": 79.88
+        },
+        {
+          "ticker": "SMRA.JK",
+          "ob_range": "274-270",
+          "sl": 269,
+          "sl_pct": 1.5,
+          "tp": 286.0,
+          "tp_pct": 4.4,
+          "rr": 2.94,
+          "distance": 2.92,
+          "bos_age": 3,
+          "ob_size": 1.42,
+          "score": 79.31
+        }
+      ]
+    },
     {
       "scanner": "MACD",
       "slot": "11:00",
